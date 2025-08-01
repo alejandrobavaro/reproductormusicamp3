@@ -1,0 +1,290 @@
+/* -------------------------------------------- */
+/* ESTILOS BASE - MOBILE FIRST */
+/* -------------------------------------------- */
+
+/**
+ * HEADER PRINCIPAL
+ * - Posición fija en la parte superior
+ * - Fondo oscuro semitransparente
+ * - Z-index alto para asegurar que esté por encima
+ */
+ .app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/**
+ * CONTENEDOR INTERNO
+ * - Flexbox para alinear elementos
+ * - Ancho completo con padding lateral
+ */
+.header-wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+/* LOGO */
+.logo-container {
+  flex-shrink: 0;
+  
+  .logo-link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .logo-image {
+    height: 70px;
+    width: auto;
+    transition: transform 0.2s ease;
+    
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+/* BARRA DE BÚSQUEDA */
+.search-container {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.95);
+  box-sizing: border-box;
+  
+  &.mobile-visible {
+    display: block;
+    top: 60px;
+  }
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 8px 15px;
+  box-sizing: border-box;
+}
+
+.search-icon {
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 14px;
+  
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  &:focus {
+    outline: none;
+  }
+}
+
+.search-close {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+/* MENÚ PRINCIPAL */
+.main-nav {
+  display: none;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  flex-direction: column;
+  padding: 10px 0;
+  box-sizing: border-box;
+  
+  &.active {
+    display: flex;
+  }
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  
+  &:hover, &.active {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.nav-icon {
+  margin-right: 12px;
+  font-size: 16px;
+}
+
+.nav-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* CONTROLES MÓVILES */
+.mobile-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  
+  button {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.menu-toggle {
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+
+.toggle-bar {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  left: 0;
+  transition: all 0.3s ease;
+  
+  &:nth-child(1) {
+    top: 5px;
+  }
+  
+  &:nth-child(2) {
+    top: 12px;
+  }
+  
+  &:nth-child(3) {
+    top: 19px;
+  }
+  
+  &.open:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  
+  &.open:nth-child(2) {
+    opacity: 0;
+  }
+  
+  &.open:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+}
+
+/* -------------------------------------------- */
+/* BREAKPOINT TABLET - 768px */
+/* -------------------------------------------- */
+@media (min-width: 768px) {
+  .app-header {
+    height: 70px;
+  }
+  
+  .header-wrapper {
+    padding: 0 20px;
+  }
+  
+  .logo-image {
+    height: 35px;
+  }
+  
+  .search-container {
+    display: block;
+    position: static;
+    flex: 1;
+    margin: 0 20px;
+    padding: 0;
+    background-color: transparent;
+    
+    &.mobile-visible {
+      position: static;
+    }
+  }
+  
+  .search-box {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .search-close {
+    display: none;
+  }
+  
+  .main-nav {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background-color: transparent;
+    padding: 0;
+  }
+  
+  .nav-link {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 4px;
+  }
+  
+  .mobile-controls {
+    display: none;
+  }
+}
+
+/* -------------------------------------------- */
+/* BREAKPOINT DESKTOP - 1024px */
+/* -------------------------------------------- */
+@media (min-width: 1024px) {
+  .header-wrapper {
+    padding: 0 30px;
+  }
+  
+  .nav-link {
+    padding: 12px 20px;
+    margin: 0 10px;
+  }
+  
+  .search-box {
+    max-width: 500px;
+  }
+}

@@ -1,0 +1,1525 @@
+{
+    "bloque-1-19hs-20hs-recepcioninvitados": {
+        "bloque_musical": "Recepción",
+        "canciones": [
+            {
+                "id": 0,
+                "nombre": "Intervención Animador - Bienvenida",
+                "artista": "Animador",
+                "url": "/audio/01-recepcion-invitados/00-Voz Bienvenida.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 1,
+                "nombre": "Something Cool",
+                "artista": "Ruth Cameron",
+                "url": "/audio/01-recepcion-invitados/01-Jazz - Ruth Cameron - Something Cool.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 2,
+                "nombre": "Fly Me to the Moon",
+                "artista": "Frank Sinatra",
+                "url": "/audio/01-recepcion-invitados/02-Jazz - Frank Sinatra - Fly Me to the Moon.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 3,
+                "nombre": "The shadow of your Smile",
+                "artista": "Tony Bennett",
+                "url": "/audio/01-recepcion-invitados/03-Tony Bennett - The shadow of your Smile.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 4,
+                "nombre": "Brother Can You Spare A Dime",
+                "artista": "Abbey Lincoln",
+                "url": "/audio/01-recepcion-invitados/04-Abbey Lincoln - Brother Can You Spare A Dime.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 5,
+                "nombre": "Moon River",
+                "artista": "Frank Sinatra",
+                "url": "/audio/01-recepcion-invitados/05-Frank Sinatra - Moon River.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 6,
+                "nombre": "Sometimes",
+                "artista": "Frank Sinatra",
+                "url": "/audio/01-recepcion-invitados/06-Frank Sinatra - Sometimes.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 7,
+                "nombre": "Yesterday",
+                "artista": "Frank Sinatra",
+                "url": "/audio/01-recepcion-invitados/07-Frank Sinatra - Yesterday.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 8,
+                "nombre": "The Way You Look Tonight",
+                "artista": "Michael Bublé",
+                "url": "/audio/01-recepcion-invitados/08-Michael Buble - The Way You Look Tonight.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 9,
+                "nombre": "Route 66",
+                "artista": "Nat King Cole",
+                "url": "/audio/01-recepcion-invitados/09-Nat King Cole - Route 66.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 10,
+                "nombre": "You Got My Head",
+                "artista": "Diana Krall",
+                "url": "/audio/01-recepcion-invitados/10-Diana Krall - you_got_my_head.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            }
+        ]
+    },
+    "bloque-2-20hs-20hs30-ceremoniaboda": {
+        "bloque_musical": "Ceremonia Civil",
+        "canciones": [
+            {
+                "id": 11,
+                "nombre": "Intervención Animador - Entrada Novios",
+                "artista": "Animador",
+                "url": "/audio/02-ceremonia-civil/entrada_novios.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 12,
+                "nombre": "Thank You for Loving Me",
+                "artista": "Bon Jovi",
+                "url": "/audio/02-ceremonia-civil/Thank You for Loving Me.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 13,
+                "nombre": "Marcha Nupcial",
+                "artista": "Vitamin String Quartet",
+                "url": "/audio/02-ceremonia-civil/Marcha Nupcial.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 14,
+                "nombre": "Colgado en Tus Manos",
+                "artista": "Carlos Baute",
+                "url": "/audio/02-ceremonia-civil/Colgado en Tus Manos.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            }
+        ]
+    },
+    "bloque-3-20hs30-20hs45-saludoinvitados": {
+        "bloque_musical": "Saludo a los Invitados",
+        "canciones": [
+            {
+                "id": 15,
+                "nombre": "Intervención Animador - Saludos",
+                "artista": "Animador",
+                "url": "/audio/03-saludo-invitados/animador_saludos.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 16,
+                "nombre": "Beautiful Day",
+                "artista": "U2",
+                "url": "/audio/03-saludo-invitados/Beautiful Day.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 17,
+                "nombre": "All You Need Is Love",
+                "artista": "The Beatles",
+                "url": "/audio/03-saludo-invitados/All You Need Is Love.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            }
+        ]
+    },
+    "bloque-4-20hs45-21hs15-fotosinvitados1": {
+        "bloque_musical": "Fotos con Invitados 1",
+        "canciones": [
+            {
+                "id": 18,
+                "nombre": "Intervención Animador - Fotos",
+                "artista": "Animador",
+                "url": "/audio/04-fotos-invitados1/animador_fotos.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 19,
+                "nombre": "Every Breath You Take",
+                "artista": "The Police",
+                "url": "/audio/04-fotos-invitados1/Every Breath You Take.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 20,
+                "nombre": "Time After Time",
+                "artista": "Cyndi Lauper",
+                "url": "/audio/04-fotos-invitados1/Time After Time.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            }
+        ]
+    },
+    "bloque-5-21hs15-21hs30-entradashowdemozos": {
+        "bloque_musical": "Entrada Show de los Mozos",
+        "canciones": [
+            {
+                "id": 21,
+                "nombre": "Intervención Animador - Entrada Show",
+                "artista": "Animador",
+                "url": "/audio/05-entrada-show-mozos/entrada_show.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 22,
+                "nombre": "Celebration",
+                "artista": "Kool & The Gang",
+                "url": "/audio/05-entrada-show-mozos/Celebration.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            }
+        ]
+    },
+    "bloque-6-21hs30-22hs15-cenapernil": {
+        "bloque_musical": "Cena",
+        "canciones": [
+            {
+                "id": 23,
+                "nombre": "Intervención Animador - Entrada Pernil",
+                "artista": "Animador",
+                "url": "/audio/06-cena/entrada_pernil.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 24,
+                "nombre": "Oye Cómo Va",
+                "artista": "Santana",
+                "url": "/audio/06-cena/Oye Cómo Va.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 25,
+                "nombre": "La Vida es un Carnaval",
+                "artista": "Celia Cruz",
+                "url": "/audio/06-cena/La Vida es un Carnaval.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 26,
+                "nombre": "El Cantante",
+                "artista": "Héctor Lavoe",
+                "url": "/audio/06-cena/El Cantante.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 27,
+                "nombre": "Quimbara",
+                "artista": "Celia Cruz",
+                "url": "/audio/06-cena/Quimbara.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            }
+        ]
+    },
+    "bloque-7-22hs15-22hs45-brindis1": {
+        "bloque_musical": "Brindis 1",
+        "canciones": [
+            {
+                "id": 28,
+                "nombre": "Intervención Animador - Brindis",
+                "artista": "Animador",
+                "url": "/audio/07-brindis1/brindis.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 29,
+                "nombre": "Brindis",
+                "artista": "Serrat",
+                "url": "/audio/07-brindis1/Brindis.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 30,
+                "nombre": "Celebration",
+                "artista": "Kool & The Gang",
+                "url": "/audio/07-brindis1/Celebration.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            }
+        ]
+    },
+    "bloque-8-22hs45-23hs15-bailenoviosybloquebaile1": {
+        "bloque_musical": "Baile de Novios y Bloque de Baile 1",
+        "canciones": [
+            {
+                "id": 31,
+                "nombre": "Intervención Animador - Baile Romántico",
+                "artista": "Animador",
+                "url": "/audio/08-baile-novios-bloque1/baile_romantico.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 32,
+                "nombre": "Rayando el Sol",
+                "artista": "Maná",
+                "url": "/audio/08-baile-novios-bloque1/Rayando el Sol.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 33,
+                "nombre": "Es Por Ti",
+                "artista": "Juanes",
+                "url": "/audio/08-baile-novios-bloque1/Es Por Ti.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 34,
+                "nombre": "Caraluna",
+                "artista": "Bacilos",
+                "url": "/audio/08-baile-novios-bloque1/Caraluna.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 35,
+                "nombre": "Labios Compartidos",
+                "artista": "Maná",
+                "url": "/audio/08-baile-novios-bloque1/Labios Compartidos.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 36,
+                "nombre": "Dónde Jugarán los Niños",
+                "artista": "Maná",
+                "url": "/audio/08-baile-novios-bloque1/Dónde Jugarán los Niños.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 37,
+                "nombre": "María",
+                "artista": "Ricky Martin",
+                "url": "/audio/08-baile-novios-bloque1/María.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 38,
+                "nombre": "La Tortura",
+                "artista": "Shakira ft. Alejandro Sanz",
+                "url": "/audio/08-baile-novios-bloque1/La Tortura.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 39,
+                "nombre": "Bailamos",
+                "artista": "Enrique Iglesias",
+                "url": "/audio/08-baile-novios-bloque1/Bailamos.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 40,
+                "nombre": "Hero",
+                "artista": "Enrique Iglesias",
+                "url": "/audio/08-baile-novios-bloque1/Hero.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 41,
+                "nombre": "Eres",
+                "artista": "Café Tacuba",
+                "url": "/audio/08-baile-novios-bloque1/Eres.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 42,
+                "nombre": "No Me Ames",
+                "artista": "Jennifer Lopez ft. Marc Anthony",
+                "url": "/audio/08-baile-novios-bloque1/No Me Ames.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 43,
+                "nombre": "Amor Prohibido",
+                "artista": "Selena",
+                "url": "/audio/08-baile-novios-bloque1/Amor Prohibido.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 44,
+                "nombre": "Bidi Bidi Bom Bom",
+                "artista": "Selena",
+                "url": "/audio/08-baile-novios-bloque1/Bidi Bidi Bom Bom.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 45,
+                "nombre": "Vivire",
+                "artista": "Ricky Martin",
+                "url": "/audio/08-baile-novios-bloque1/Vivire.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 46,
+                "nombre": "Livin' La Vida Loca",
+                "artista": "Ricky Martin",
+                "url": "/audio/08-baile-novios-bloque1/Livin' La Vida Loca.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 47,
+                "nombre": "She Bangs",
+                "artista": "Ricky Martin",
+                "url": "/audio/08-baile-novios-bloque1/She Bangs.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 48,
+                "nombre": "Mientes",
+                "artista": "Camila",
+                "url": "/audio/08-baile-novios-bloque1/Mientes.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 49,
+                "nombre": "Abrázame",
+                "artista": "Tamara",
+                "url": "/audio/08-baile-novios-bloque1/Abrázame.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 50,
+                "nombre": "Loca",
+                "artista": "Shakira ft. El Cata",
+                "url": "/audio/08-baile-novios-bloque1/Loca.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 51,
+                "nombre": "Waka Waka (This Time for Africa)",
+                "artista": "Shakira",
+                "url": "/audio/08-baile-novios-bloque1/Waka Waka (This Time for Africa).mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            }
+        ]
+    },
+    "bloque-9-23hs15-23hs30-postreyfotocabina": {
+        "bloque_musical": "Postre y Foto Cabina",
+        "canciones": [
+            {
+                "id": 52,
+                "nombre": "Intervención Animador - Torta Nupcial",
+                "artista": "Animador",
+                "url": "/audio/09-postre-foto-cabina/torta_nupcial.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 53,
+                "nombre": "Sugar",
+                "artista": "Maroon 5",
+                "url": "/audio/09-postre-foto-cabina/Sugar.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 54,
+                "nombre": "Intervención Animador - Lanzamiento Ramo",
+                "artista": "Animador",
+                "url": "/audio/09-postre-foto-cabina/lanzamiento_ramo.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 55,
+                "nombre": "Single Ladies",
+                "artista": "Beyoncé",
+                "url": "/audio/09-postre-foto-cabina/Single Ladies.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            }
+        ]
+    },
+    "bloque-10-23hs30-00hs-videoemotivonovios": {
+        "bloque_musical": "Video Emotivo Novios",
+        "canciones": [
+            {
+                "id": 56,
+                "nombre": "Intervención Animador - Video Emotivo",
+                "artista": "Animador",
+                "url": "/audio/10-video-emotivo/video_emotivo.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 57,
+                "nombre": "Hasta Que Me Olvides",
+                "artista": "Luis Miguel",
+                "url": "/audio/10-video-emotivo/Hasta Que Me Olvides.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 58,
+                "nombre": "Te Amo",
+                "artista": "Franco de Vita",
+                "url": "/audio/10-video-emotivo/Te Amo.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 59,
+                "nombre": "Livin’ on a Prayer",
+                "artista": "Bon Jovi",
+                "url": "/audio/10-video-emotivo/Livin’ on a Prayer.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 60,
+                "nombre": "La Playa",
+                "artista": "La Oreja de Van Gogh",
+                "url": "/audio/10-video-emotivo/La Playa.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 61,
+                "nombre": "Don’t Stop Believin’",
+                "artista": "Journey",
+                "url": "/audio/10-video-emotivo/Don’t Stop Believin’.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 62,
+                "nombre": "Waka Waka",
+                "artista": "Shakira",
+                "url": "/audio/10-video-emotivo/Waka Waka.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            }
+        ]
+    },
+    "bloque-11-00hs-00hs30-showbandaenvivo": {
+        "bloque_musical": "Show Banda en Vivo",
+        "canciones": [
+            {
+                "id": 63,
+                "nombre": "Intervención Animador - Actuación Novios",
+                "artista": "Animador",
+                "url": "/audio/11-show-banda-en-vivo/actuacion_novios.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 64,
+                "nombre": "Vuela Vuela",
+                "artista": "Magneto",
+                "url": "/audio/11-show-banda-en-vivo/Vuela Vuela.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            }
+        ]
+    },
+    "bloque-12-00hs30-01hs-baile2": {
+        "bloque_musical": "Baile 2",
+        "canciones": [
+            {
+                "id": 65,
+                "nombre": "Intervención Animador - Latinos Mix",
+                "artista": "Animador",
+                "url": "/audio/12-baile-2/latinos_mix.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 66,
+                "nombre": "La Bilirrubina",
+                "artista": "Juan Luis Guerra",
+                "url": "/audio/12-baile-2/La Bilirrubina.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 67,
+                "nombre": "Suavemente",
+                "artista": "Elvis Crespo",
+                "url": "/audio/12-baile-2/Suavemente.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 68,
+                "nombre": "Valió la Pena",
+                "artista": "Marc Anthony",
+                "url": "/audio/12-baile-2/Valió la Pena.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 69,
+                "nombre": "Procura",
+                "artista": "Chichi Peralta",
+                "url": "/audio/12-baile-2/Procura.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 70,
+                "nombre": "Oye Mi Canto",
+                "artista": "N.O.R.E. ft. Nina Sky",
+                "url": "/audio/12-baile-2/Oye Mi Canto.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 71,
+                "nombre": "Danza Kuduro",
+                "artista": "Don Omar ft. Lucenzo",
+                "url": "/audio/12-baile-2/Danza Kuduro.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 72,
+                "nombre": "Gasolina",
+                "artista": "Daddy Yankee",
+                "url": "/audio/12-baile-2/Gasolina.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 73,
+                "nombre": "Lo He Intentado",
+                "artista": "Heroe",
+                "url": "/audio/12-baile-2/Lo He Intentado.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 74,
+                "nombre": "Impacto",
+                "artista": "Daddy Yankee ft. Fergie",
+                "url": "/audio/12-baile-2/Impacto.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 75,
+                "nombre": "Pegao",
+                "artista": "Wisin & Yandel",
+                "url": "/audio/12-baile-2/Pegao.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 76,
+                "nombre": "Rakata",
+                "artista": "Wisin & Yandel",
+                "url": "/audio/12-baile-2/Rakata.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 77,
+                "nombre": "Mayor Que Usted",
+                "artista": "Baby Ranks",
+                "url": "/audio/12-baile-2/Mayor Que Usted.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 78,
+                "nombre": "Noche De Entierro",
+                "artista": "Luny Tunes",
+                "url": "/audio/12-baile-2/Noche De Entierro.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 79,
+                "nombre": "Sácala",
+                "artista": "Wisin, Yandel, Franco El Gorila",
+                "url": "/audio/12-baile-2/Sácala.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 80,
+                "nombre": "Rompe",
+                "artista": "Daddy Yankee",
+                "url": "/audio/12-baile-2/Rompe.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 81,
+                "nombre": "Ella Se Contradice",
+                "artista": "Lefty SM ft. Plan B",
+                "url": "/audio/12-baile-2/Ella Se Contradice.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 82,
+                "nombre": "Yo Voy",
+                "artista": "Zion & Lennox",
+                "url": "/audio/12-baile-2/Yo Voy.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 83,
+                "nombre": "Pasión",
+                "artista": "Don Omar",
+                "url": "/audio/12-baile-2/Pasión.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 84,
+                "nombre": "Salgo Pa' La Calle",
+                "artista": "Hector El Father",
+                "url": "/audio/12-baile-2/Salgo Pa' La Calle.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 85,
+                "nombre": "Siente El Boom",
+                "artista": "Tego Calderón",
+                "url": "/audio/12-baile-2/Siente El Boom.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            }
+        ]
+    },
+    "bloque-13-01hs-01hs20-juegoramowisky": {
+        "bloque_musical": "Juego del Ramo y del Whisky",
+        "canciones": [
+            {
+                "id": 86,
+                "nombre": "Intervención Animador - Juego del Ramo",
+                "artista": "Animador",
+                "url": "/audio/13-juego-ramo-whisky/juego_ramo.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 87,
+                "nombre": "Single Ladies",
+                "artista": "Beyoncé",
+                "url": "/audio/13-juego-ramo-whisky/Single Ladies.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            }
+        ]
+    },
+    "bloque-14-01hs20-01hs45-tortaymesadulce": {
+        "bloque_musical": "Torta y Mesa Dulce",
+        "canciones": [
+            {
+                "id": 88,
+                "nombre": "Intervención Animador - Torta Nupcial",
+                "artista": "Animador",
+                "url": "/audio/14-torta-mesa-dulce/torta_nupcial.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 89,
+                "nombre": "Sugar",
+                "artista": "Maroon 5",
+                "url": "/audio/14-torta-mesa-dulce/Sugar.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 90,
+                "nombre": "Intervención Animador - Lanzamiento Ramo",
+                "artista": "Animador",
+                "url": "/audio/14-torta-mesa-dulce/lanzamiento_ramo.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 91,
+                "nombre": "Sweet Child O' Mine",
+                "artista": "Guns N' Roses",
+                "url": "/audio/14-torta-mesa-dulce/Sweet Child O' Mine.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            }
+        ]
+    },
+    "bloque-15-01hs45-02hs-fotogrupal": {
+        "bloque_musical": "Foto Grupal",
+        "canciones": [
+            {
+                "id": 92,
+                "nombre": "Intervención Animador - Foto Grupal",
+                "artista": "Animador",
+                "url": "/audio/15-foto-grupal/foto_grupal.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 93,
+                "nombre": "We Are Family",
+                "artista": "Sister Sledge",
+                "url": "/audio/15-foto-grupal/We Are Family.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            }
+        ]
+    },
+    "bloque-16-02hs-03hs-horaloca": {
+        "bloque_musical": "Hora Loca",
+        "canciones": [
+            {
+                "id": 94,
+                "nombre": "Intervención Animador - Hora Loca",
+                "artista": "Animador",
+                "url": "/audio/16-hora-loca/hora_loca.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 95,
+                "nombre": "Danza Kuduro",
+                "artista": "Don Omar ft. Lucenzo",
+                "url": "/audio/16-hora-loca/Danza Kuduro.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 96,
+                "nombre": "Gasolina",
+                "artista": "Daddy Yankee",
+                "url": "/audio/16-hora-loca/Gasolina.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 97,
+                "nombre": "Taki Taki",
+                "artista": "DJ Snake ft. Selena Gomez, Ozuna, Cardi B",
+                "url": "/audio/16-hora-loca/Taki Taki.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 98,
+                "nombre": "Con Calma",
+                "artista": "Daddy Yankee ft. Snow",
+                "url": "/audio/16-hora-loca/Con Calma.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 99,
+                "nombre": "Despacito",
+                "artista": "Luis Fonsi ft. Daddy Yankee",
+                "url": "/audio/16-hora-loca/Despacito.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 100,
+                "nombre": "Mi Gente",
+                "artista": "J Balvin, Willy William",
+                "url": "/audio/16-hora-loca/Mi Gente.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 101,
+                "nombre": "X",
+                "artista": "Nicky Jam, J Balvin",
+                "url": "/audio/16-hora-loca/X.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 102,
+                "nombre": "Te Boté",
+                "artista": "Casper, Nio García, Darell, Nicky Jam, Ozuna, Bad Bunny",
+                "url": "/audio/16-hora-loca/Te Boté.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 103,
+                "nombre": "Dura",
+                "artista": "Daddy Yankee",
+                "url": "/audio/16-hora-loca/Dura.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 104,
+                "nombre": "Shaky Shaky",
+                "artista": "Daddy Yankee",
+                "url": "/audio/16-hora-loca/Shaky Shaky.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 105,
+                "nombre": "La Rompe Corazones",
+                "artista": "Daddy Yankee ft. Ozuna",
+                "url": "/audio/16-hora-loca/La Rompe Corazones.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 106,
+                "nombre": "Vivir Mi Vida",
+                "artista": "Marc Anthony",
+                "url": "/audio/16-hora-loca/Vivir Mi Vida.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 107,
+                "nombre": "El Perdón",
+                "artista": "Nicky Jam, Enrique Iglesias",
+                "url": "/audio/16-hora-loca/El Perdón.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 108,
+                "nombre": "Ginza",
+                "artista": "J Balvin",
+                "url": "/audio/16-hora-loca/Ginza.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 109,
+                "nombre": "Ay Vamos",
+                "artista": "J Balvin",
+                "url": "/audio/16-hora-loca/Ay Vamos.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 110,
+                "nombre": "Bailando",
+                "artista": "Enrique Iglesias ft. Descemer Bueno, Gente de Zona",
+                "url": "/audio/16-hora-loca/Bailando.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 111,
+                "nombre": "El Perdedor",
+                "artista": "Maluma",
+                "url": "/audio/16-hora-loca/El Perdedor.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 112,
+                "nombre": "Borró Cassette",
+                "artista": "Maluma",
+                "url": "/audio/16-hora-loca/Borró Cassette.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 113,
+                "nombre": "Hawái",
+                "artista": "Maluma",
+                "url": "/audio/16-hora-loca/Hawái.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 114,
+                "nombre": "11 PM",
+                "artista": "Maluma",
+                "url": "/audio/16-hora-loca/11 PM.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            }
+        ]
+    },
+    "bloque-17-03hs-03hs30-baile3": {
+        "bloque_musical": "Baile 3",
+        "canciones": [
+            {
+                "id": 115,
+                "nombre": "Intervención Animador - Baile Final",
+                "artista": "Animador",
+                "url": "/audio/17-baile-3/baile_final.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 116,
+                "nombre": "Vivir Mi Vida",
+                "artista": "Marc Anthony",
+                "url": "/audio/17-baile-3/Vivir Mi Vida.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 117,
+                "nombre": "Me Gusta",
+                "artista": "Shakira",
+                "url": "/audio/17-baile-3/Me Gusta.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 118,
+                "nombre": "Titanium",
+                "artista": "David Guetta ft. Sia",
+                "url": "/audio/17-baile-3/Titanium.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 119,
+                "nombre": "De Música Ligera",
+                "artista": "Soda Stereo",
+                "url": "/audio/17-baile-3/De Música Ligera.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 120,
+                "nombre": "Persiana Americana",
+                "artista": "Soda Stereo",
+                "url": "/audio/17-baile-3/Persiana Americana.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 121,
+                "nombre": "Sweet Child O' Mine",
+                "artista": "Guns N' Roses",
+                "url": "/audio/17-baile-3/Sweet Child O' Mine.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 122,
+                "nombre": "Don't Stop Believin'",
+                "artista": "Journey",
+                "url": "/audio/17-baile-3/Don't Stop Believin'.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 123,
+                "nombre": "Livin' on a Prayer",
+                "artista": "Bon Jovi",
+                "url": "/audio/17-baile-3/Livin' on a Prayer.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 124,
+                "nombre": "Every Breath You Take",
+                "artista": "The Police",
+                "url": "/audio/17-baile-3/Every Breath You Take.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 125,
+                "nombre": "Billie Jean",
+                "artista": "Michael Jackson",
+                "url": "/audio/17-baile-3/Billie Jean.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 126,
+                "nombre": "Like a Virgin",
+                "artista": "Madonna",
+                "url": "/audio/17-baile-3/Like a Virgin.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 127,
+                "nombre": "Wake Me Up Before You Go-Go",
+                "artista": "Wham!",
+                "url": "/audio/17-baile-3/Wake Me Up Before You Go-Go.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 128,
+                "nombre": "Girls Just Want to Have Fun",
+                "artista": "Cyndi Lauper",
+                "url": "/audio/17-baile-3/Girls Just Want to Have Fun.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 129,
+                "nombre": "When Doves Cry",
+                "artista": "Prince",
+                "url": "/audio/17-baile-3/When Doves Cry.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 130,
+                "nombre": "Footloose",
+                "artista": "Kenny Loggins",
+                "url": "/audio/17-baile-3/Footloose.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 131,
+                "nombre": "Flashdance... What a Feeling",
+                "artista": "Irene Cara",
+                "url": "/audio/17-baile-3/Flashdance... What a Feeling.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 132,
+                "nombre": "I Wanna Dance with Somebody",
+                "artista": "Whitney Houston",
+                "url": "/audio/17-baile-3/I Wanna Dance with Somebody.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 133,
+                "nombre": "Walk Like an Egyptian",
+                "artista": "The Bangles",
+                "url": "/audio/17-baile-3/Walk Like an Egyptian.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 134,
+                "nombre": "You Shook Me All Night Long",
+                "artista": "AC/DC",
+                "url": "/audio/17-baile-3/You Shook Me All Night Long.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 135,
+                "nombre": "Another One Bites the Dust",
+                "artista": "Queen",
+                "url": "/audio/17-baile-3/Another One Bites the Dust.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 136,
+                "nombre": "Call Me",
+                "artista": "Blondie",
+                "url": "/audio/17-baile-3/Call Me.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 137,
+                "nombre": "Celebration",
+                "artista": "Kool & The Gang",
+                "url": "/audio/17-baile-3/Celebration.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 138,
+                "nombre": "Super Freak",
+                "artista": "Rick James",
+                "url": "/audio/17-baile-3/Super Freak.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 139,
+                "nombre": "9 to 5",
+                "artista": "Dolly Parton",
+                "url": "/audio/17-baile-3/9 to 5.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 140,
+                "nombre": "Endless Love",
+                "artista": "Diana Ross & Lionel Richie",
+                "url": "/audio/17-baile-3/Endless Love.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 141,
+                "nombre": "Physical",
+                "artista": "Olivia Newton-John",
+                "url": "/audio/17-baile-3/Physical.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 142,
+                "nombre": "Centerfold",
+                "artista": "J. Geils Band",
+                "url": "/audio/17-baile-3/Centerfold.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 143,
+                "nombre": "Africa",
+                "artista": "Toto",
+                "url": "/audio/17-baile-3/Africa.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 144,
+                "nombre": "Every Little Thing She Does Is Magic",
+                "artista": "The Police",
+                "url": "/audio/17-baile-3/Every Little Thing She Does Is Magic.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 145,
+                "nombre": "Start Me Up",
+                "artista": "The Rolling Stones",
+                "url": "/audio/17-baile-3/Start Me Up.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 146,
+                "nombre": "Waiting for a Girl Like You",
+                "artista": "Foreigner",
+                "url": "/audio/17-baile-3/Waiting for a Girl Like You.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 147,
+                "nombre": "Harden My Heart",
+                "artista": "Quarterflash",
+                "url": "/audio/17-baile-3/Harden My Heart.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 148,
+                "nombre": "Abracadabra",
+                "artista": "Steve Miller Band",
+                "url": "/audio/17-baile-3/Abracadabra.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 149,
+                "nombre": "Open Arms",
+                "artista": "Journey",
+                "url": "/audio/17-baile-3/Open Arms.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 150,
+                "nombre": "I Can't Go for That (No Can Do)",
+                "artista": "Hall & Oates",
+                "url": "/audio/17-baile-3/I Can't Go for That (No Can Do).mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 151,
+                "nombre": "Maneater",
+                "artista": "Hall & Oates",
+                "url": "/audio/17-baile-3/Maneater.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 152,
+                "nombre": "Jack & Diane",
+                "artista": "John Mellencamp",
+                "url": "/audio/17-baile-3/Jack & Diane.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 153,
+                "nombre": "Hurts So Good",
+                "artista": "John Mellencamp",
+                "url": "/audio/17-baile-3/Hurts So Good.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 154,
+                "nombre": "Chariots of Fire",
+                "artista": "Vangelis",
+                "url": "/audio/17-baile-3/Chariots of Fire.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 155,
+                "nombre": "Eye of the Tiger",
+                "artista": "Survivor",
+                "url": "/audio/17-baile-3/Eye of the Tiger.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 156,
+                "nombre": "Up Where We Belong",
+                "artista": "Joe Cocker & Jennifer Warnes",
+                "url": "/audio/17-baile-3/Up Where We Belong.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 157,
+                "nombre": "The Power of Love",
+                "artista": "Huey Lewis and The News",
+                "url": "/audio/17-baile-3/The Power of Love.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 158,
+                "nombre": "Straight From the Heart",
+                "artista": "Bryan Adams",
+                "url": "/audio/17-baile-3/Straight From the Heart.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 159,
+                "nombre": "Sweet Dreams (Are Made of This)",
+                "artista": "Eurythmics",
+                "url": "/audio/17-baile-3/Sweet Dreams (Are Made of This).mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 160,
+                "nombre": "Hungry Like the Wolf",
+                "artista": "Duran Duran",
+                "url": "/audio/17-baile-3/Hungry Like the Wolf.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 161,
+                "nombre": "Come On Eileen",
+                "artista": "Dexys Midnight Runners",
+                "url": "/audio/17-baile-3/Come On Eileen.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 162,
+                "nombre": "Down Under",
+                "artista": "Men at Work",
+                "url": "/audio/17-baile-3/Down Under.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 163,
+                "nombre": "I Love Rock 'n' Roll",
+                "artista": "Joan Jett & The Blackhearts",
+                "url": "/audio/17-baile-3/I Love Rock 'n' Roll.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 164,
+                "nombre": "Mickey",
+                "artista": "Toni Basil",
+                "url": "/audio/17-baile-3/Mickey.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 165,
+                "nombre": "Gloria",
+                "artista": "Laura Branigan",
+                "url": "/audio/17-baile-3/Gloria.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 166,
+                "nombre": "Maniac",
+                "artista": "Michael Sembello",
+                "url": "/audio/17-baile-3/Maniac.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 167,
+                "nombre": "Total Eclipse of the Heart",
+                "artista": "Bonnie Tyler",
+                "url": "/audio/17-baile-3/Total Eclipse of the Heart.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 168,
+                "nombre": "Making Love Out of Nothing at All",
+                "artista": "Air Supply",
+                "url": "/audio/17-baile-3/Making Love Out of Nothing at All.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 169,
+                "nombre": "All Night Long (All Night)",
+                "artista": "Lionel Richie",
+                "url": "/audio/17-baile-3/All Night Long (All Night).mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 170,
+                "nombre": "Islands in the Stream",
+                "artista": "Kenny Rogers & Dolly Parton",
+                "url": "/audio/17-baile-3/Islands in the Stream.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 171,
+                "nombre": "Say Say Say",
+                "artista": "Paul McCartney & Michael Jackson",
+                "url": "/audio/17-baile-3/Say Say Say.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 172,
+                "nombre": "Owner of a Lonely Heart",
+                "artista": "Yes",
+                "url": "/audio/17-baile-3/Owner of a Lonely Heart.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 173,
+                "nombre": "Jump",
+                "artista": "Van Halen",
+                "url": "/audio/17-baile-3/Jump.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 174,
+                "nombre": "Panama",
+                "artista": "Van Halen",
+                "url": "/audio/17-baile-3/Panama.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 175,
+                "nombre": "Photograph",
+                "artista": "Def Leppard",
+                "url": "/audio/17-baile-3/Photograph.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 176,
+                "nombre": "Rock of Ages",
+                "artista": "Def Leppard",
+                "url": "/audio/17-baile-3/Rock of Ages.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 177,
+                "nombre": "Separate Ways (Worlds Apart)",
+                "artista": "Journey",
+                "url": "/audio/17-baile-3/Separate Ways (Worlds Apart).mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 178,
+                "nombre": "Faithfully",
+                "artista": "Journey",
+                "url": "/audio/17-baile-3/Faithfully.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 179,
+                "nombre": "Here I Go Again",
+                "artista": "Whitesnake",
+                "url": "/audio/17-baile-3/Here I Go Again.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 180,
+                "nombre": "Cum On Feel the Noize",
+                "artista": "Quiet Riot",
+                "url": "/audio/17-baile-3/Cum On Feel the Noize.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 181,
+                "nombre": "Bang Your Head (Metal Health)",
+                "artista": "Quiet Riot",
+                "url": "/audio/17-baile-3/Bang Your Head (Metal Health).mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 182,
+                "nombre": "The Final Countdown",
+                "artista": "Europe",
+                "url": "/audio/17-baile-3/The Final Countdown.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 183,
+                "nombre": "You Give Love a Bad Name",
+                "artista": "Bon Jovi",
+                "url": "/audio/17-baile-3/You Give Love a Bad Name.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 184,
+                "nombre": "Pour Some Sugar on Me",
+                "artista": "Def Leppard",
+                "url": "/audio/17-baile-3/Pour Some Sugar on Me.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 185,
+                "nombre": "Love Bites",
+                "artista": "Def Leppard",
+                "url": "/audio/17-baile-3/Love Bites.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 186,
+                "nombre": "Heaven",
+                "artista": "Bryan Adams",
+                "url": "/audio/17-baile-3/Heaven.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 187,
+                "nombre": "Summer of '69",
+                "artista": "Bryan Adams",
+                "url": "/audio/17-baile-3/Summer of '69.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 188,
+                "nombre": "We Built This City",
+                "artista": "Starship",
+                "url": "/audio/17-baile-3/We Built This City.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 189,
+                "nombre": "Sara",
+                "artista": "Starship",
+                "url": "/audio/17-baile-3/Sara.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 190,
+                "nombre": "The Way It Is",
+                "artista": "Bruce Hornsby and the Range",
+                "url": "/audio/17-baile-3/The Way It Is.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 191,
+                "nombre": "Walk of Life",
+                "artista": "Dire Straits",
+                "url": "/audio/17-baile-3/Walk of Life.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 192,
+                "nombre": "The Lady in Red",
+                "artista": "Chris de Burgh",
+                "url": "/audio/17-baile-3/The Lady in Red.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 193,
+                "nombre": "St. Elmo's Fire (Man in Motion)",
+                "artista": "John Parr",
+                "url": "/audio/17-baile-3/St. Elmo's Fire (Man in Motion).mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 194,
+                "nombre": "That's What Friends Are For",
+                "artista": "Dionne & Friends",
+                "url": "/audio/17-baile-3/That's What Friends Are For.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 195,
+                "nombre": "Greatest Love of All",
+                "artista": "Whitney Houston",
+                "url": "/audio/17-baile-3/Greatest Love of All.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 196,
+                "nombre": "How Will I Know",
+                "artista": "Whitney Houston",
+                "url": "/audio/17-baile-3/How Will I Know.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 197,
+                "nombre": "Venus",
+                "artista": "Bananarama",
+                "url": "/audio/17-baile-3/Venus.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 198,
+                "nombre": "Karma Chameleon",
+                "artista": "Culture Club",
+                "url": "/audio/17-baile-3/Karma Chameleon.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 199,
+                "nombre": "Wake Me Up Before You Go-Go",
+                "artista": "Wham!",
+                "url": "/audio/17-baile-3/Wake Me Up Before You Go-Go.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            }
+        ]
+    },
+    "bloque-18-03hs30-03hs45-desayuno": {
+        "bloque_musical": "Desayuno",
+        "canciones": [
+            {
+                "id": 200,
+                "nombre": "Intervención Animador - Desayuno",
+                "artista": "Animador",
+                "url": "/audio/18-desayuno/desayuno.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 201,
+                "nombre": "Breakfast at Tiffany's",
+                "artista": "Deep Blue Something",
+                "url": "/audio/18-desayuno/Breakfast at Tiffany's.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            }
+        ]
+    },
+    "bloque-19-03hs45-04hs-despedidaysouvenirs": {
+        "bloque_musical": "Despedida y Souvenirs",
+        "canciones": [
+            {
+                "id": 202,
+                "nombre": "Intervención Animador - Despedida",
+                "artista": "Animador",
+                "url": "/audio/19-despedida/despedida.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 203,
+                "nombre": "Time to Say Goodbye",
+                "artista": "Andrea Bocelli & Sarah Brightman",
+                "url": "/audio/19-despedida/Time to Say Goodbye.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            }
+        ]
+    }
+}

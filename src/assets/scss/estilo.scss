@@ -1,0 +1,31 @@
+//-----------------------------GENERAL-----------------------//
+@import "./_01-General/App";
+
+@import "./_03-Componentes/Footer";
+
+@import "./_03-Componentes/Header";
+@import "./_03-Componentes/HeaderSearchBar";
+
+
+//---------------HOME/MAIN-------------------//
+@import "./_03-Componentes/HomeMainContent";
+@import "./_03-Componentes/HomePublicidadSlider";
+
+@import "./_03-Componentes/HomeNovedades";
+
+
+//-----------------CONTACTO Y REDES-----------------//
+@import "./_03-Componentes/Contacto";
+
+//------------------MÚSICA-----------------//
+@import "./_03-Componentes/Musica";
+
+
+@import "./_03-Componentes/MusicaCancionesLista";
+
+@import "./_03-Componentes/MusicaFiltros";
+
+@import "./_03-Componentes/MusicaReproductor";
+
+
+@import "./_03-Componentes/MusicaCancionItem";

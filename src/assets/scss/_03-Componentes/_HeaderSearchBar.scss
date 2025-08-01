@@ -1,0 +1,57 @@
+.cyber-search-wrapper {
+  width: 100%;
+  max-width: 600px; // Puedes ajustar esto según el uso
+  margin: 1rem auto; // Considera eliminar o ajustar estos márgenes si se inserta en otro componente con su propio espaciado
+  font-family: 'Rajdhani', sans-serif;
+  color: #e0e0e0;
+}
+
+.cyber-search-terminal {
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 20, 0.9);
+  border: 1px solid rgba(0, 240, 255, 0.3);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.2);
+}
+
+.cyber-prompt {
+  color: #00f0ff;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.cyber-search-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #e0e0e0;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1rem;
+  outline: none;
+}
+
+.cyber-search-input::placeholder {
+  color: rgba(224, 224, 224, 0.3);
+}
+
+.cyber-search-icon { // Si decides usar un icono de búsqueda
+  color: #00f0ff;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  filter: drop-shadow(0 0 5px rgba(0, 240, 255, 0.8));
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.cyber-search-icon:hover {
+  color: #ff00f0;
+}
+
+.cyber-search-underline {
+  height: 2px;
+  background: linear-gradient(90deg, #00f0ff, #ff00f0);
+  border-radius: 2px;
+  margin-top: 0.5rem;
+}

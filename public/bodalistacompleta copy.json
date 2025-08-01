@@ -1,0 +1,524 @@
+{
+    "bloque-1-19hs-20hs-recepcion": {
+        "bloque_musical": "Recepción",
+        "canciones": [
+            {
+                "id": 0,
+                "nombre": "Intervención Animador - Bienvenida",
+                "artista": "Animador",
+                "url": "/audio/01-recepcion-invitados/00-Voz Bienvenida.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 1,
+                "nombre": "Something Cool",
+                "artista": "Ruth Cameron",
+                "url": "/audio/01-recepcion-invitados/01-Jazz - Ruth Cameron - Something Cool.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 2,
+                "nombre": "Fly Me to the Moon",
+                "artista": "Frank Sinatra",
+                "url": "/audio/01-recepcion-invitados/02-Jazz - Frank Sinatra - Fly Me to the Moon.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 3,
+                "nombre": "The shadow of your Smile",
+                "artista": "Tony Bennett",
+                "url": "/audio/01-recepcion-invitados/03-Tony Bennett - The shadow of your Smile.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 4,
+                "nombre": "Brother Can You Spare A Dime",
+                "artista": "Abbey Lincoln",
+                "url": "/audio/01-recepcion-invitados/04-Abbey Lincoln - Brother Can You Spare A Dime.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 5,
+                "nombre": "Moon River",
+                "artista": "Frank Sinatra",
+                "url": "/audio/01-recepcion-invitados/05-Frank Sinatra - Moon River.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 6,
+                "nombre": "Sometimes",
+                "artista": "Frank Sinatra",
+                "url": "/audio/01-recepcion-invitados/06-Frank Sinatra - Sometimes.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 7,
+                "nombre": "Yesterday",
+                "artista": "Frank Sinatra",
+                "url": "/audio/01-recepcion-invitados/07-Frank Sinatra - Yesterday.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 8,
+                "nombre": "The Way You Look Tonight",
+                "artista": "Michael Bublé",
+                "url": "/audio/01-recepcion-invitados/08-Michael Buble - The Way You Look Tonight.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 9,
+                "nombre": "Route 66",
+                "artista": "Nat King Cole",
+                "url": "/audio/01-recepcion-invitados/09-Nat King Cole - Route 66.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            },
+            {
+                "id": 10,
+                "nombre": "You Got My Head",
+                "artista": "Diana Krall",
+                "url": "/audio/01-recepcion-invitados/10-Diana Krall - you_got_my_head.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            }
+        ]
+    },
+    "bloque-2-20hs-20hs30-ceremonia": {
+        "bloque_musical": "Ceremonia Civil",
+        "canciones": [
+            {
+                "id": 11,
+                "nombre": "Intervención Animador - Entrada Novios",
+                "artista": "Animador",
+                "url": "/audio/02-ceremonia-civil/entrada_novios.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 12,
+                "nombre": "Thank You for Loving Me",
+                "artista": "Bon Jovi",
+                "url": "/audio/02-ceremonia-civil/Thank You for Loving Me.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 13,
+                "nombre": "Marcha Nupcial",
+                "artista": "Vitamin String Quartet",
+                "url": "/audio/02-ceremonia-civil/Marcha Nupcial.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 14,
+                "nombre": "Colgado en Tus Manos",
+                "artista": "Carlos Baute",
+                "url": "/audio/02-ceremonia-civil/Colgado en Tus Manos.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            }
+        ]
+    },
+    "bloque-3-20hs30-20hs45-saludos": {
+        "bloque_musical": "Saludos a los Novios",
+        "canciones": [
+            {
+                "id": 15,
+                "nombre": "Intervención Animador - Saludos",
+                "artista": "Animador",
+                "url": "/audio/03-saludos/animador_saludos.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 16,
+                "nombre": "Beautiful Day",
+                "artista": "U2",
+                "url": "/audio/03-saludos/Beautiful Day.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 17,
+                "nombre": "All You Need Is Love",
+                "artista": "The Beatles",
+                "url": "/audio/03-saludos/All You Need Is Love.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            }
+        ]
+    },
+    "bloque-4-20hs45-21hs15-fotos": {
+        "bloque_musical": "Fotos y Copa en Mano",
+        "canciones": [
+            {
+                "id": 18,
+                "nombre": "Intervención Animador - Fotos",
+                "artista": "Animador",
+                "url": "/audio/04-fotos/animador_fotos.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 19,
+                "nombre": "Every Breath You Take",
+                "artista": "The Police",
+                "url": "/audio/04-fotos/Every Breath You Take.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 20,
+                "nombre": "Time After Time",
+                "artista": "Cyndi Lauper",
+                "url": "/audio/04-fotos/Time After Time.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            }
+        ]
+    },
+    "bloque-5-21hs15-21hs30-bienvenida": {
+        "bloque_musical": "Palabras de Bienvenida",
+        "canciones": [
+            {
+                "id": 21,
+                "nombre": "Intervención Animador - Bienvenida Oficial",
+                "artista": "Animador",
+                "url": "/audio/05-bienvenida/bienvenida_oficial.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 22,
+                "nombre": "Celebration",
+                "artista": "Kool & The Gang",
+                "url": "/audio/05-bienvenida/Celebration.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            }
+        ]
+    },
+    "bloque-6-21hs30-22hs15-cena": {
+        "bloque_musical": "Cena",
+        "canciones": [
+            {
+                "id": 23,
+                "nombre": "Intervención Animador - Entrada Pernil",
+                "artista": "Animador",
+                "url": "/audio/06-cena/entrada_pernil.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 24,
+                "nombre": "Oye Cómo Va",
+                "artista": "Santana",
+                "url": "/audio/06-cena/Oye Cómo Va.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 25,
+                "nombre": "La Vida es un Carnaval",
+                "artista": "Celia Cruz",
+                "url": "/audio/06-cena/La Vida es un Carnaval.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 26,
+                "nombre": "El Cantante",
+                "artista": "Héctor Lavoe",
+                "url": "/audio/06-cena/El Cantante.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 27,
+                "nombre": "Quimbara",
+                "artista": "Celia Cruz",
+                "url": "/audio/06-cena/Quimbara.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            }
+        ]
+    },
+    "bloque-7-22hs15-22hs45-brindis": {
+        "bloque_musical": "Brindis",
+        "canciones": [
+            {
+                "id": 28,
+                "nombre": "Intervención Animador - Brindis",
+                "artista": "Animador",
+                "url": "/audio/07-brindis/brindis.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 29,
+                "nombre": "Brindis",
+                "artista": "Serrat",
+                "url": "/audio/07-brindis/Brindis.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 30,
+                "nombre": "Celebration",
+                "artista": "Kool & The Gang",
+                "url": "/audio/07-brindis/Celebration.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            }
+        ]
+    },
+    "bloque-8-22hs45-23hs15-baile1": {
+        "bloque_musical": "Baile 1",
+        "canciones": [
+            {
+                "id": 31,
+                "nombre": "Intervención Animador - Baile Romántico",
+                "artista": "Animador",
+                "url": "/audio/08-baile-1/baile_romantico.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 32,
+                "nombre": "Rayando el Sol",
+                "artista": "Maná",
+                "url": "/audio/08-baile-1/Rayando el Sol.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            },
+            {
+                "id": 33,
+                "nombre": "Es Por Ti",
+                "artista": "Juanes",
+                "url": "/audio/08-baile-1/Es Por Ti.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 34,
+                "nombre": "Caraluna",
+                "artista": "Bacilos",
+                "url": "/audio/08-baile-1/Caraluna.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            }
+        ]
+    },
+    "bloque-9-23hs15-23hs30-postre": {
+        "bloque_musical": "Postre",
+        "canciones": [
+            {
+                "id": 35,
+                "nombre": "Intervención Animador - Postre",
+                "artista": "Animador",
+                "url": "/audio/09-postre/postre.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 36,
+                "nombre": "Sugar",
+                "artista": "Maroon 5",
+                "url": "/audio/09-postre/Sugar.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 37,
+                "nombre": "Sweet Child O' Mine",
+                "artista": "Guns N' Roses",
+                "url": "/audio/09-postre/Sweet Child O' Mine.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            }
+        ]
+    },
+    "bloque-10-23hs30-00hs-video": {
+        "bloque_musical": "Video Emotivo",
+        "canciones": [
+            {
+                "id": 38,
+                "nombre": "Intervención Animador - Video Emotivo",
+                "artista": "Animador",
+                "url": "/audio/10-video/video_emotivo.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 39,
+                "nombre": "Time of My Life",
+                "artista": "Bill Medley & Jennifer Warnes",
+                "url": "/audio/10-video/Time of My Life.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            }
+        ]
+    },
+    "bloque-11-00hs-00hs30-show": {
+        "bloque_musical": "Show en Vivo",
+        "canciones": [
+            {
+                "id": 40,
+                "nombre": "Intervención Animador - Show en Vivo",
+                "artista": "Animador",
+                "url": "/audio/11-show/show_en_vivo.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 41,
+                "nombre": "Vuela Vuela",
+                "artista": "Magneto",
+                "url": "/audio/11-show/Vuela Vuela.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            }
+        ]
+    },
+    "bloque-12-00hs30-01hs-baile2": {
+        "bloque_musical": "Baile 2",
+        "canciones": [
+            {
+                "id": 42,
+                "nombre": "Intervención Animador - Latinos Mix",
+                "artista": "Animador",
+                "url": "/audio/12-baile-2/latinos_mix.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 43,
+                "nombre": "La Bilirrubina",
+                "artista": "Juan Luis Guerra",
+                "url": "/audio/12-baile-2/La Bilirrubina.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 44,
+                "nombre": "Suavemente",
+                "artista": "Elvis Crespo",
+                "url": "/audio/12-baile-2/Suavemente.mp3",
+                "imagen": "/img/09-portadas/Designer (1).jpeg"
+            }
+        ]
+    },
+    "bloque-13-01hs-01hs20-juegos": {
+        "bloque_musical": "Juego del Ramo y del Whisky",
+        "canciones": [
+            {
+                "id": 45,
+                "nombre": "Intervención Animador - Juego del Ramo",
+                "artista": "Animador",
+                "url": "/audio/13-juegos/juego_ramo.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 46,
+                "nombre": "Single Ladies",
+                "artista": "Beyoncé",
+                "url": "/audio/13-juegos/Single Ladies.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            }
+        ]
+    },
+    "bloque-14-01hs20-01hs45-mesadulce": {
+        "bloque_musical": "Mesa Dulce",
+        "canciones": [
+            {
+                "id": 47,
+                "nombre": "Intervención Animador - Mesa Dulce",
+                "artista": "Animador",
+                "url": "/audio/14-mesa-dulce/mesa_dulce.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 48,
+                "nombre": "Sugar",
+                "artista": "Maroon 5",
+                "url": "/audio/14-mesa-dulce/Sugar.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            }
+        ]
+    },
+    "bloque-15-01hs45-02hs-foto": {
+        "bloque_musical": "Foto General",
+        "canciones": [
+            {
+                "id": 49,
+                "nombre": "Intervención Animador - Foto Grupal",
+                "artista": "Animador",
+                "url": "/audio/15-foto/foto_grupal.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 50,
+                "nombre": "We Are Family",
+                "artista": "Sister Sledge",
+                "url": "/audio/15-foto/We Are Family.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            }
+        ]
+    },
+    "bloque-16-02hs-03hs-horaloca": {
+        "bloque_musical": "Hora Loca",
+        "canciones": [
+            {
+                "id": 51,
+                "nombre": "Intervención Animador - Hora Loca",
+                "artista": "Animador",
+                "url": "/audio/16-hora-loca/hora_loca.mp3",
+                "imagen": "/img/09-portadas/portadadiscofunkelectropop.png"
+            },
+            {
+                "id": 52,
+                "nombre": "Danza Kuduro",
+                "artista": "Don Omar ft. Lucenzo",
+                "url": "/audio/16-hora-loca/Danza Kuduro.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            },
+            {
+                "id": 53,
+                "nombre": "Gasolina",
+                "artista": "Daddy Yankee",
+                "url": "/audio/16-hora-loca/Gasolina.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            }
+        ]
+    },
+    "bloque-17-03hs-03hs30-baile3": {
+        "bloque_musical": "Baile 3",
+        "canciones": [
+            {
+                "id": 54,
+                "nombre": "Intervención Animador - Baile Final",
+                "artista": "Animador",
+                "url": "/audio/17-baile-3/baile_final.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            },
+            {
+                "id": 55,
+                "nombre": "Vivir Mi Vida",
+                "artista": "Marc Anthony",
+                "url": "/audio/17-baile-3/Vivir Mi Vida.mp3",
+                "imagen": "/img/09-portadas/Designer (2).jpeg"
+            },
+            {
+                "id": 56,
+                "nombre": "Me Gusta",
+                "artista": "Shakira",
+                "url": "/audio/17-baile-3/Me Gusta.mp3",
+                "imagen": "/img/09-portadas/Designer (3).jpeg"
+            }
+        ]
+    },
+    "bloque-18-03hs30-03hs45-desayuno": {
+        "bloque_musical": "Desayuno con Baile",
+        "canciones": [
+            {
+                "id": 57,
+                "nombre": "Intervención Animador - Desayuno",
+                "artista": "Animador",
+                "url": "/audio/18-desayuno/desayuno.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
+            },
+            {
+                "id": 58,
+                "nombre": "Breakfast at Tiffany's",
+                "artista": "Deep Blue Something",
+                "url": "/audio/18-desayuno/Breakfast at Tiffany's.mp3",
+                "imagen": "/img/09-portadas/portadapoprockingles.png"
+            }
+        ]
+    },
+    "bloque-19-03hs45-04hs-despedida": {
+        "bloque_musical": "Despedida",
+        "canciones": [
+            {
+                "id": 59,
+                "nombre": "Intervención Animador - Despedida",
+                "artista": "Animador",
+                "url": "/audio/19-despedida/despedida.mp3",
+                "imagen": "/img/09-portadas/portadaBaladasIngles.png"
+            },
+            {
+                "id": 60,
+                "nombre": "Time to Say Goodbye",
+                "artista": "Andrea Bocelli & Sarah Brightman",
+                "url": "/audio/19-despedida/Time to Say Goodbye.mp3",
+                "imagen": "/img/09-portadas/portadaRockNRollBailableBlues.png"
+            }
+        ]
+    }
+}

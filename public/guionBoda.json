@@ -1,0 +1,210 @@
+{
+  "evento": "Boda de Alejandro & Fabiola",
+  "fecha": "23 de noviembre",
+  "horario": "19:00 a 04:00",
+  "bloques": [
+      {
+          "id": "bloque-1-19hs-20hs-recepcioninvitados",
+          "nombre": "Recepción y Copa de Bienvenida",
+          "horaInicio": "19:00",
+          "horaFin": "20:00",
+          "actividades": [
+              "Llegada de invitados.",
+              "Ambientación con jazz en vivo o playlist elegante.",
+              "Se sirven bocaditos, tragos suaves y cócteles en la barra inicial.",
+              "Se presenta de forma sutil la app QR Social: escaneo de código QR, acceso a número de mesa, mensajes, etc."
+          ]
+      },
+      {
+          "id": "bloque-2-20hs-20hs30-ceremoniaboda",
+          "nombre": "Ceremonia Civil",
+          "horaInicio": "20:00",
+          "horaFin": "20:30",
+          "actividades": [
+              "Entrada de los novios con música emotiva: Marcha Nupcial + canción especial seleccionada por la pareja.",
+              "Acto oficial, votos, firma de acta.",
+              "Cierre con lluvia de arroz, pétalos secos o burbujas."
+          ]
+      },
+      {
+          "id": "bloque-3-20hs30-20hs45-saludoinvitados",
+          "nombre": "Saludos a los Novios",
+          "horaInicio": "20:30",
+          "horaFin": "20:45",
+          "actividades": [
+              "Felicitaciones espontáneas.",
+              "Fotos con familiares cercanos y testigos en un rincón decorado."
+          ]
+      },
+      {
+          "id": "bloque-4-20hs45-21hs15-fotosinvitados1",
+          "nombre": "Fotos + Primera Copa",
+          "horaInicio": "20:45",
+          "horaFin": "21:15",
+          "actividades": [
+              "Los novios recorren el lugar con copas en mano.",
+              "Fotos relajadas y espontáneas con los invitados."
+          ]
+      },
+      {
+          "id": "bloque-5-21hs15-21hs30-entradashowdemozos",
+          "nombre": "Bienvenida Oficial + Presentación de QR Social",
+          "horaInicio": "21:15",
+          "horaFin": "21:30",
+          "actividades": [
+              "Animador o maestro de ceremonias da la bienvenida.",
+              "Se explica brevemente el uso de la app/web QR Social: dejar dedicatorias, subir fotos en vivo, ver ubicación en las mesas, participar en encuestas, playlist, etc."
+          ]
+      },
+      {
+          "id": "bloque-6-21hs30-22hs15-cenapernil",
+          "nombre": "Cena – Entrada + Plato Principal",
+          "horaInicio": "21:30",
+          "horaFin": "22:15",
+          "actividades": [
+              "Se sirve el menú principal (pernil con guarniciones).",
+              "Música suave y ambiental.",
+              "Posibilidad de incluir opciones vegetarianas o especiales."
+          ]
+      },
+      {
+          "id": "bloque-7-22hs15-22hs45-brindis1",
+          "nombre": "Brindis + Palabras",
+          "horaInicio": "22:15",
+          "horaFin": "22:45",
+          "actividades": [
+              "Brindis formal.",
+              "Palabras de padres, hermanos o amigos elegidos.",
+              "Palabras de Alejandro y Fabiola (opcional o sorpresa)."
+          ]
+      },
+      {
+          "id": "bloque-8-22hs45-23hs15-bailenoviosybloquebaile1",
+          "nombre": "Baile de los Novios + 1er Bloque de Baile",
+          "horaInicio": "22:45",
+          "horaFin": "23:15",
+          "actividades": [
+              "Primer baile romántico: 'Colgado en tus manos'.",
+              "Transición al vals familiar con invitados.",
+              "Primer bloque de baile con música alegre pero elegante."
+          ]
+      },
+      {
+          "id": "bloque-9-23hs15-23hs30-postreyfotocabina",
+          "nombre": "Postre",
+          "horaInicio": "23:15",
+          "horaFin": "23:30",
+          "actividades": [
+              "Regreso a las mesas.",
+              "Se sirve el postre: opciones de torta, helado, mousse, etc.",
+              "Música chill para ambientar."
+          ]
+      },
+      {
+          "id": "bloque-10-23hs30-00hs-videoemotivonovios",
+          "nombre": "Video Emotivo",
+          "horaInicio": "23:30",
+          "horaFin": "00:00",
+          "actividades": [
+              "Proyección de un video con la historia de la pareja.",
+              "Fotos de infancia, viajes, anécdotas, momentos clave.",
+              "Música instrumental o temas sentimentales de fondo."
+          ]
+      },
+      {
+          "id": "bloque-11-00hs-00hs30-showbandaenvivo",
+          "nombre": "Show en Vivo – 'Almango Pop Covers'",
+          "horaInicio": "00:00",
+          "horaFin": "00:30",
+          "actividades": [
+              "Alejandro sube al escenario con su banda.",
+              "Clásicos del pop nacional e internacional.",
+              "Cierre con la participación de Fabiola en el tema final: 'Vuela Vuela'."
+          ]
+      },
+      {
+          "id": "bloque-12-00hs30-01hs-baile2",
+          "nombre": "2do Bloque de Baile",
+          "horaInicio": "00:30",
+          "horaFin": "01:00",
+          "actividades": [
+              "DJ retoma con temas actuales y hits bailable.",
+              "Todos a la pista."
+          ]
+      },
+      {
+          "id": "bloque-13-01hs-01hs20-juegoramowisky",
+          "nombre": "Juego del Ramo y del Whisky",
+          "horaInicio": "01:00",
+          "horaFin": "01:20",
+          "actividades": [
+              "Tradicional juego del ramo (invitadas).",
+              "Juego del whisky (invitados).",
+              "Dinámico, divertido, con animación."
+          ]
+      },
+      {
+          "id": "bloque-14-01hs20-01hs45-tortaymesadulce",
+          "nombre": "Torta + Mesa Dulce + Apertura Barra Libre",
+          "horaInicio": "01:20",
+          "horaFin": "01:45",
+          "actividades": [
+              "Estación de dulces: tortas, bombones, shots dulces.",
+              "Se activa la barra completa.",
+              "DJ comienza transición a música más festiva."
+          ]
+      },
+      {
+          "id": "bloque-15-01hs45-02hs-fotogrupal",
+          "nombre": "Foto General + Descontrol Progresivo",
+          "horaInicio": "01:45",
+          "horaFin": "02:00",
+          "actividades": [
+              "Foto grupal espontánea: ¡más relajados, más divertidos!",
+              "Primeras señales de la fiesta desatada."
+          ]
+      },
+      {
+          "id": "bloque-16-02hs-03hs-horaloca",
+          "nombre": "Hora Loca",
+          "horaInicio": "02:00",
+          "horaFin": "03:00",
+          "actividades": [
+              "Cotillón temático, luces, animación, show sorpresa.",
+              "Posible temática: 'Espacial Retro', 'Electropop' o fantasía personalizada.",
+              "Bailes temáticos, juegos visuales, confetti, humo, leds."
+          ]
+      },
+      {
+          "id": "bloque-17-03hs-03hs30-baile3",
+          "nombre": "3er Bloque de Baile – Fiesta Total",
+          "horaInicio": "03:00",
+          "horaFin": "03:30",
+          "actividades": [
+              "Fiesta en su punto máximo.",
+              "DJ sin pausas, todos en la pista.",
+              "Bar abierto, luces bajas, pista llena."
+          ]
+      },
+      {
+          "id": "bloque-18-03hs30-03hs45-desayuno",
+          "nombre": "Desayuno + Últimas Fotos",
+          "horaInicio": "03:30",
+          "horaFin": "03:45",
+          "actividades": [
+              "Mini desayuno: café, medialunas, snacks.",
+              "Fotos improvisadas con los que queden bailando."
+          ]
+      },
+      {
+          "id": "bloque-19-03hs45-04hs-despedidaysouvenirs",
+          "nombre": "Despedida y Souvenirs",
+          "horaInicio": "03:45",
+          "horaFin": "04:00",
+          "actividades": [
+              "Entrega de recuerdos y souvenirs (bolsitas, imanes, etc.).",
+              "Últimos abrazos, agradecimientos y cierre."
+          ]
+      }
+  ]
+}

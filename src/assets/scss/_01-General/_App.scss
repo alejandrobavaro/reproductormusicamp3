@@ -1,0 +1,79 @@
+/* -------------------------------------------- */
+/* ESTILOS BASE PARA LA APLICACIÓN */
+/* -------------------------------------------- */
+
+/**
+ * ESTRUCTURA GENERAL
+ * - Diseño mobile-first
+ * - Contenedor principal con flex column
+ * - Colores base del tema
+ */
+ .spotify-app {
+  background-color: #121212; /* Fondo oscuro principal */
+  color: #FFFFFF; /* Texto blanco */
+  min-height: 100vh; /* Altura mínima de viewport */
+  font-family: 'Circular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column; /* Organización vertical */
+}
+
+/**
+ * CONTENIDO PRINCIPAL
+ * - Flex para ocupar espacio disponible
+ * - Padding superior para evitar solapamiento con header
+ */
+.spotify-main {
+  flex: 1; /* Ocupa todo el espacio disponible */
+  padding-top: 80px; /* Espacio para el header */
+}
+
+/**
+ * CONTENEDOR DE CONTENIDO
+ * - Centrado horizontal
+ * - Padding lateral básico
+ * - Ancho máximo para pantallas grandes
+ */
+.spotify-content {
+  max-width: 1400px; /* Ancho máximo en desktop */
+  margin: 0 auto; /* Centrado horizontal */
+  padding: 20px; /* Espaciado base mobile */
+  width: 100%; /* Ocupa ancho disponible */
+}
+
+/**
+ * ESTILOS GLOBALES PARA ENLACES
+ * - Color verde característico
+ * - Transición suave para hover
+ */
+a {
+  color: #1DB954; /* Verde Spotify */
+  text-decoration: none;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: #FFFFFF; /* Blanco al hacer hover */
+    text-decoration: underline;
+  }
+}
+
+/* -------------------------------------------- */
+/* BREAKPOINT TABLET - 768px */
+/* -------------------------------------------- */
+@media (min-width: 768px) {
+  .spotify-main {
+    padding-top: 90px; /* Ajuste de espacio para header */
+  }
+
+  .spotify-content {
+    padding: 30px; /* Mayor padding en tablet */
+  }
+}
+
+/* -------------------------------------------- */
+/* BREAKPOINT ESCRITORIO - 1024px */
+/* -------------------------------------------- */
+@media (min-width: 1024px) {
+  .spotify-content {
+    padding: 40px; /* Mayor padding en desktop */
+  }
+}

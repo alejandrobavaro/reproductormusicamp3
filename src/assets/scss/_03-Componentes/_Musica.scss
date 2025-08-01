@@ -1,0 +1,72 @@
+/* █████████████████████████████████████████████████████████████████████
+   ███ ESTILOS BASE - ESTRATEGIA MOBILE FIRST ███
+   █████████████████████████████████████████████████████████████████████ */
+
+   .music-page {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgba(30, 30, 30, 0.8);
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .music-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* █████████████████████████████████████████████████████████████████████
+     ███ ALERTAS TEMPORALES ███
+     █████████████████████████████████████████████████████████████████████ */
+  
+  .alert-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #ff9800;
+    color: #333;
+    border-radius: 4px;
+    z-index: 1000;
+    animation: fadeInOut 3s ease-in-out;
+  }
+  
+  @keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(-20px); }
+    10% { opacity: 1; transform: translateY(0); }
+    90% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-20px); }
+  }
+  
+  /* █████████████████████████████████████████████████████████████████████
+     ███ BREAKPOINT TABLET (768px) ███
+     █████████████████████████████████████████████████████████████████████ */
+  
+  @media (min-width: 768px) {
+    .music-page {
+      padding: 15px;
+    }
+    
+    .music-container {
+      gap: 20px;
+    }
+  }
+  
+  /* █████████████████████████████████████████████████████████████████████
+     ███ BREAKPOINT ESCRITORIO (1024px) ███
+     █████████████████████████████████████████████████████████████████████ */
+  
+  @media (min-width: 1024px) {
+    .music-page {
+      max-width: 1200px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    
+    .music-container {
+      gap: 25px;
+    }
+  }
