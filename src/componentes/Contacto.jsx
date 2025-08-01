@@ -18,25 +18,25 @@ const Contacto = () => {
     {
       icon: <FaFacebook />,
       text: "FACEBOOK",
-      url: "https://www.facebook.com/alegondramusic",
+      url: "#",
       color: "#1877f2"
     },
     {
       icon: <FaInstagram />,
       text: "INSTAGRAM",
-      url: "https://www.instagram.com/alegondramusic/?hl=es",
+      url: "#",
       color: "#e1306c"
     },
     {
       icon: <FaYoutube />,
       text: "YOUTUBE",
-      url: "https://www.youtube.com/channel/UCBhJkysp3SnHU1tR3qAA5pQ",
+      url: "#",
       color: "#ff0000"
     },
     {
       icon: <FaSpotify />,
       text: "SPOTIFY",
-      url: "https://open.spotify.com/artist/7qo7PxAcvyyyZb6XztH7zE",
+      url: "#",
       color: "#1db954"
     },
     {
@@ -44,12 +44,6 @@ const Contacto = () => {
       text: "CORREO ELECTRÓNICO",
       url: "mailto:bavaroalejandro@gmail.com",
       color: "#00f0ff"
-    },
-    {
-      icon: <FaPaypal />,
-      text: "APOYO ECONÓMICO",
-      url: "https://www.paypal.com/paypalme/alegondramusic?country.x=AR&locale.x=es_XC",
-      color: "#003087"
     }
   ];
 
@@ -65,7 +59,7 @@ const Contacto = () => {
         <div className="contact-content">
           <div className="logo-container">
             <img
-              src="/img/05-img-galeria2/banner4.png"
+           src="/img/02-logos/logoreproductordemusicamp3.png" 
               alt="Almango Pop Covers"
               className="contact-logo"
             />

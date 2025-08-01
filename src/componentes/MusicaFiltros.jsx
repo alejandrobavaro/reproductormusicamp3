@@ -4,7 +4,7 @@ import "../assets/scss/_03-Componentes/_MusicaFiltros.scss";
 function MusicaFiltros({ bloques, bloqueActual, setBloqueActual }) {
   return (
     <div className="filters-container">
-
+<h6>Bloques Guión</h6>
       <div className="quick-buttons">
         <button 
           className={bloqueActual === "todo" ? "active" : ""}

@@ -1,38 +1,39 @@
-
 import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation, NavLink } from "react-router-dom";
-import { FaSearch, FaMusic, FaHome, FaEnvelope, FaTimes } from "react-icons/fa";
+import { FaSearch, FaMusic, FaHome, FaTimes } from "react-icons/fa";
 
+// Componente Header - Barra de navegación superior
 const Header = ({ searchQuery, setSearchQuery }) => {
   // ------------------------------------------------------------
-  // ESTADOS Y REFERENCIAS
+  // SECCIÓN: ESTADOS Y REFERENCIAS
   // ------------------------------------------------------------
-  const location = useLocation(); // Hook para obtener la ruta actual
-  const [showMobileSearch, setShowMobileSearch] = useState(false); // Controlar búsqueda móvil
-  const [menuActive, setMenuActive] = useState(false); // Controlar menú móvil
-  const headerRef = useRef(null); // Referencia para el header
+  const location = useLocation(); // Hook de React Router para obtener la ruta actual
+  const [showMobileSearch, setShowMobileSearch] = useState(false); // Controla visibilidad de búsqueda en móvil
+  const [menuActive, setMenuActive] = useState(false); // Controla si el menú móvil está activo
+  const headerRef = useRef(null); // Referencia al elemento header para detectar clicks fuera
 
   // ------------------------------------------------------------
-  // DATOS DEL COMPONENTE
+  // SECCIÓN: DATOS DEL COMPONENTE
   // ------------------------------------------------------------
+  // Array con los items del menú de navegación
   const menuItems = [
-    { title: "Inicio", path: "/", icon: <FaHome /> },
-    { title: "Música", path: "/musica", icon: <FaMusic /> },
-    { title: "Contacto", path: "/contactoredessociales", icon: <FaEnvelope /> },
+    { title: "Inicio", path: "/", icon: <FaMusic /> }, 
+    // Se eliminó el item de Contacto que estaba aquí originalmente
   ];
 
-  // Mostrar barra de búsqueda solo en /musica
+  // Determina si debe mostrarse la barra de búsqueda (solo en ruta /musica)
   const shouldShowSearchBar = location.pathname === "/musica";
 
   // ------------------------------------------------------------
-  // MANEJADORES DE EVENTOS
+  // SECCIÓN: MANEJADORES DE EVENTOS
   // ------------------------------------------------------------
+  // Maneja la navegación cerrando menú móvil y scroll al top
   const handleNavigation = () => {
     setMenuActive(false);
     window.scrollTo(0, 0);
   };
 
-  // Cerrar menú al hacer click fuera
+  // Cierra el menú móvil al hacer click fuera del header
   const handleClickOutside = (event) => {
     if (headerRef.current && !headerRef.current.contains(event.target)) {
       setMenuActive(false);
@@ -40,8 +41,9 @@ const Header = ({ searchQuery, setSearchQuery }) => {
   };
 
   // ------------------------------------------------------------
-  // EFECTOS
+  // SECCIÓN: EFECTOS
   // ------------------------------------------------------------
+  // Efecto para agregar/remover listener de clicks fuera del header
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
@@ -50,23 +52,22 @@ const Header = ({ searchQuery, setSearchQuery }) => {
   }, []);
 
   // ------------------------------------------------------------
-  // RENDERIZADO
+  // SECCIÓN: RENDERIZADO
   // ------------------------------------------------------------
   return (
     <header className="app-header" ref={headerRef}>
       <div className="header-wrapper">
-        {/* Logo */}
+        {/* Contenedor del logo */}
         <div className="logo-container">
           <Link to="/" className="logo-link" onClick={handleNavigation}>
             <img 
-              src="/img/02-logos/logoreproductordemusicamp3.png" 
+              src="/img/02-logos/logoreproductordemusicamp32222.png" 
               alt="Reproductor de Música" 
               className="logo-image"
             />
           </Link>
         </div>
 
-    
         {/* Menú de navegación principal */}
         <nav className={`main-nav ${menuActive ? "active" : ""}`}>
           {menuItems.map((item, index) => (
@@ -84,7 +85,7 @@ const Header = ({ searchQuery, setSearchQuery }) => {
           ))}
         </nav>
 
-        {/* Controles móviles */}
+        {/* Controles móviles (búsqueda y menú hamburguesa) */}
         <div className="mobile-controls">
           {shouldShowSearchBar && (
             <button

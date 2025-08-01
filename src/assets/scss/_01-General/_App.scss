@@ -1,79 +1,52 @@
+/* _App.scss - Versión completa */
 /* -------------------------------------------- */
-/* ESTILOS BASE PARA LA APLICACIÓN */
+/* ESTILOS GLOBALES PRINCIPALES */
 /* -------------------------------------------- */
 
 /**
- * ESTRUCTURA GENERAL
+ * Contenedor principal de la aplicación
+ * - Mantiene estructura básica con header y footer
  * - Diseño mobile-first
- * - Contenedor principal con flex column
- * - Colores base del tema
  */
  .spotify-app {
-  background-color: #121212; /* Fondo oscuro principal */
-  color: #FFFFFF; /* Texto blanco */
-  min-height: 100vh; /* Altura mínima de viewport */
+  background-color: #121212;
+  color: #FFFFFF;
+  min-height: 100vh;
   font-family: 'Circular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   display: flex;
-  flex-direction: column; /* Organización vertical */
+  flex-direction: column;
 }
 
 /**
- * CONTENIDO PRINCIPAL
- * - Flex para ocupar espacio disponible
- * - Padding superior para evitar solapamiento con header
- */
-.spotify-main {
-  flex: 1; /* Ocupa todo el espacio disponible */
-  padding-top: 80px; /* Espacio para el header */
-}
-
-/**
- * CONTENEDOR DE CONTENIDO
- * - Centrado horizontal
- * - Padding lateral básico
- * - Ancho máximo para pantallas grandes
+ * Contenido principal
+ * - Se expande para ocupar espacio disponible
+ * - Padding superior para el header
  */
 .spotify-content {
-  max-width: 1400px; /* Ancho máximo en desktop */
-  margin: 0 auto; /* Centrado horizontal */
-  padding: 20px; /* Espaciado base mobile */
-  width: 100%; /* Ocupa ancho disponible */
-}
-
-/**
- * ESTILOS GLOBALES PARA ENLACES
- * - Color verde característico
- * - Transición suave para hover
- */
-a {
-  color: #1DB954; /* Verde Spotify */
-  text-decoration: none;
-  transition: color 0.2s ease;
-  
-  &:hover {
-    color: #FFFFFF; /* Blanco al hacer hover */
-    text-decoration: underline;
-  }
+  flex: 1; /* Ocupa todo el espacio vertical disponible */
+  padding-top: 80px; /* Ajuste para header */
+  padding-bottom: 60px; /* Ajuste para footer */
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* -------------------------------------------- */
-/* BREAKPOINT TABLET - 768px */
-/* -------------------------------------------- */
-@media (min-width: 768px) {
-  .spotify-main {
-    padding-top: 90px; /* Ajuste de espacio para header */
-  }
-
-  .spotify-content {
-    padding: 30px; /* Mayor padding en tablet */
-  }
-}
-
-/* -------------------------------------------- */
-/* BREAKPOINT ESCRITORIO - 1024px */
+/* VERSIÓN ESCRITORIO (1024px+) */
 /* -------------------------------------------- */
 @media (min-width: 1024px) {
   .spotify-content {
-    padding: 40px; /* Mayor padding en desktop */
+    padding-top: 90px; /* Header más grande */
+    padding-bottom: 70px; /* Footer más grande */
+    max-width: none; /* Ahora ocupa el 100% del ancho */
   }
+}
+
+/* -------------------------------------------- */
+/* COMPONENTE MUSICA - AJUSTES ESPECÍFICOS */
+/* -------------------------------------------- */
+.music-page {
+  width: 100%;
+  /* height: calc(100vh - 150px); */ /* ❌ BORRAR ESTA LÍNEA */
+  min-height: 100vh; /* ✅ Que al menos ocupe la pantalla completa */
+  box-sizing: border-box;
 }

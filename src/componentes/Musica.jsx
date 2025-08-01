@@ -1,109 +1,91 @@
 import React, { useState, useEffect, useRef } from "react";
 import { MusicaProvider } from "./MusicaContexto";
-import ItinerarioBoda from './ItinerarioBoda';
 import MusicaCancionesLista from "./MusicaCancionesLista";
 import MusicaReproductor from "./MusicaReproductor";
 import MusicaFiltros from "./MusicaFiltros";
 import EventoGuion from "./EventoGuion";
 import "../assets/scss/_03-Componentes/_Musica.scss";
 
-function Musica() {
+/**
+ * COMPONENTE PRINCIPAL MUSICA
+ * 
+ * Propósito: Gestiona el reproductor musical y su sincronización con el itinerario del evento
+ * 
+ * Flujo mejorado:
+ * 1. Carga inicial de datos (música + guión)
+ * 2. Configuración del reproductor
+ * 3. Sincronización con EventoGuion
+ * 4. Diseño compacto para escritorio
+ */
+function Musica({ setCart, cart, searchQuery, setSearchQuery }) {
   // ████████████████████████████████████████████
-  // ███ 1. ESTADOS PRINCIPALES DEL REPRODUCTOR ███
+  // ███ 1. ESTADOS DEL COMPONENTE ███
   // ████████████████████████████████████████████
   
-  // [Estado] Lista completa de bloques musicales (del JSON bodalistacompleta.json)
+  // [Estado] Almacena todos los bloques musicales (cargados desde bodalistacompleta.json)
   const [bloques, setBloques] = useState({});
   
-  // [Estado] Bloque musical actual seleccionado (puede ser "todo" o un ID específico)
+  // [Estado] Bloque musical actual seleccionado ("todo" o ID específico)
   const [bloqueActual, setBloqueActual] = useState("todo");
   
-  // [Estado] Canciones filtradas según el bloque actual seleccionado
+  // [Estado] Canciones filtradas según el bloque seleccionado
   const [filteredSongs, setFilteredSongs] = useState([]);
   
-  // [Estado] Canción que se está reproduciendo actualmente
+  // [Estado] Canción actualmente en reproducción
   const [currentSong, setCurrentSong] = useState(null);
   
-  // [Estado] Si el reproductor está en play (true) o pausa (false)
+  // [Estado] Control de reproducción (true = play, false = pause)
   const [isPlaying, setIsPlaying] = useState(false);
   
-  // [Estado] Volumen actual (valor entre 0 y 1)
+  // [Estado] Nivel de volumen (0 a 1)
   const [volume, setVolume] = useState(0.7);
   
-  // [Ref] Referencia al elemento de audio HTML para controlarlo directamente
+  // [Ref] Referencia al elemento de audio HTML
   const audioRef = useRef(null);
   
-  // [Estado] Para mostrar alertas temporales al usuario
+  // [Estado] Control de alertas temporales
   const [showAlert, setShowAlert] = useState(false);
   const [alertMessage, setAlertMessage] = useState('');
   
-  // [Estado] Bloque actual según la línea de tiempo del evento (se sincroniza con EventoGuion)
-  const [bloqueEventoActual, setBloqueEventoActual] = useState(null);
-  
-  // [Estado] Datos del guión completo del evento (del JSON guionBoda.json)
+  // [Estado] Datos del guión del evento (cargados desde guionBoda.json)
   const [guionEvento, setGuionEvento] = useState(null);
+  
+  // [Estado] Estados de completado de los bloques del evento
+  const [estadosEvento, setEstadosEvento] = useState({});
 
   // █████████████████████████████████████████████████████████████████████
-  // ███ 2. EFECTOS SECUNDARIOS (Se ejecutan cuando cambian las dependencias)
+  // ███ 2. EFECTOS SECUNDARIOS ███
   // █████████████████████████████████████████████████████████████████████
 
-  // [Efecto] Carga inicial de la playlist musical y el guión del evento
+  // [Efecto] Carga inicial de datos al montar el componente
   useEffect(() => {
-    // Función para cargar la lista de canciones
-    const cargarPlaylistBoda = async () => {
+    const cargarDatos = async () => {
       try {
-        const response = await fetch('/bodalistacompleta.json');
-        if (!response.ok) throw new Error('Error al cargar la playlist');
-        const data = await response.json();
-        setBloques(data);
+        // Carga en paralelo ambos archivos JSON
+        const [musicaRes, guionRes] = await Promise.all([
+          fetch('/bodalistacompleta.json'),
+          fetch('/guionBoda.json')
+        ]);
         
-        // Inicializa con todas las canciones
-        const todasCanciones = Object.values(data).flatMap(bloque => bloque.canciones);
-        setFilteredSongs(todasCanciones);
+        if (!musicaRes.ok || !guionRes.ok) throw new Error('Error al cargar datos');
+        
+        const [musicaData, guionData] = await Promise.all([
+          musicaRes.json(),
+          guionRes.json()
+        ]);
+        
+        setBloques(musicaData);
+        setGuionEvento(guionData);
+        setFilteredSongs(Object.values(musicaData).flatMap(bloque => bloque.canciones));
       } catch (err) {
-        console.error("Error cargando JSON musical:", err);
+        console.error("Error cargando datos:", err);
+        mostrarAlerta("Error cargando datos");
       }
     };
 
-    // Función para cargar el guión del evento
-    const cargarGuionEvento = async () => {
-      try {
-        const response = await fetch('/guionBoda.json');
-        if (!response.ok) throw new Error('Error al cargar el guión');
-        const data = await response.json();
-        setGuionEvento(data);
-      } catch (err) {
-        console.error("Error cargando JSON del guión:", err);
-      }
-    };
-
-    // Ejecuta ambas cargas en paralelo
-    Promise.all([cargarPlaylistBoda(), cargarGuionEvento()]);
-  }, []);
-
-  // [Efecto] Filtra las canciones cuando cambia el bloque actual seleccionado
-  useEffect(() => {
-    if (!bloqueActual || !bloques) return;
+    cargarDatos();
     
-    if (bloqueActual === "todo") {
-      // Muestra todas las canciones de todos los bloques
-      const todasCanciones = Object.values(bloques).flatMap(bloque => bloque.canciones);
-      setFilteredSongs(todasCanciones);
-    } else if (bloques[bloqueActual]) {
-      // Muestra solo las canciones del bloque seleccionado
-      setFilteredSongs(bloques[bloqueActual].canciones);
-    }
-  }, [bloqueActual, bloques]);
-
-  // [Efecto] Sincroniza el bloque actual con la línea de tiempo del evento
-  useEffect(() => {
-    if (bloqueEventoActual) {
-      setBloqueActual(bloqueEventoActual);
-    }
-  }, [bloqueEventoActual]);
-
-  // [Efecto] Carga el estado guardado (persistencia) al iniciar la aplicación
-  useEffect(() => {
+    // Cargar estado guardado del localStorage
     const savedState = localStorage.getItem('musicaState');
     if (savedState) {
       const { bloqueActual, currentSong, isPlaying, volume } = JSON.parse(savedState);
@@ -114,33 +96,43 @@ function Musica() {
     }
   }, []);
 
-  // [Efecto] Guarda el estado actual en localStorage cuando cambia
+  // [Efecto] Filtra canciones cuando cambia el bloque actual
   useEffect(() => {
-    const state = {
-      bloqueActual,
-      currentSong,
-      isPlaying,
-      volume
-    };
+    if (!bloqueActual || !bloques) return;
+    
+    setFilteredSongs(
+      bloqueActual === "todo" 
+        ? Object.values(bloques).flatMap(bloque => bloque.canciones)
+        : bloques[bloqueActual]?.canciones || []
+    );
+  }, [bloqueActual, bloques]);
+
+  // [Efecto] Persiste el estado importante
+  useEffect(() => {
+    const state = { bloqueActual, currentSong, isPlaying, volume };
     localStorage.setItem('musicaState', JSON.stringify(state));
   }, [bloqueActual, currentSong, isPlaying, volume]);
 
   // █████████████████████████████████████████████████████████████████████
-  // ███ 3. FUNCIONES PRINCIPALES DEL REPRODUCTOR
+  // ███ 3. FUNCIONES PRINCIPALES ███
   // █████████████████████████████████████████████████████████████████████
 
-  // [Función] Muestra alertas temporales en la interfaz
+  /**
+   * Muestra una alerta temporal al usuario
+   * @param {string} mensaje - Texto a mostrar
+   */
   const mostrarAlerta = (mensaje) => {
     setAlertMessage(mensaje);
     setShowAlert(true);
     setTimeout(() => setShowAlert(false), 3000);
   };
 
-  // [Función] Maneja la selección de una canción para reproducir
+  /**
+   * Reproduce una canción específica
+   * @param {Object} song - Canción a reproducir
+   */
   const handlePlaySong = (song) => {
-    if (currentSong && isPlaying) {
-      mostrarAlerta("Cambiando de canción...");
-    }
+    if (currentSong && isPlaying) mostrarAlerta("Cambiando de canción...");
     
     setCurrentSong(song);
     setIsPlaying(true);
@@ -152,7 +144,9 @@ function Musica() {
     }
   };
 
-  // [Función] Alterna entre play y pause
+  /**
+   * Alterna entre play/pause
+   */
   const handlePlayPause = () => {
     if (!currentSong) return;
     
@@ -164,115 +158,165 @@ function Musica() {
     setIsPlaying(!isPlaying);
   };
 
-  // [Función] Avanza a la siguiente canción en la lista
+  /**
+   * Avanza a la siguiente canción
+   */
   const handleNext = () => {
     if (!currentSong || filteredSongs.length === 0) return;
     
-    const currentIndex = filteredSongs.findIndex(s => s.id === currentSong.id);
-    const nextIndex = (currentIndex + 1) % filteredSongs.length;
+    const nextIndex = (filteredSongs.findIndex(s => s.id === currentSong.id) + 1) % filteredSongs.length;
     handlePlaySong(filteredSongs[nextIndex]);
   };
 
-  // [Función] Retrocede a la canción anterior en la lista
+  /**
+   * Retrocede a la canción anterior
+   */
   const handlePrev = () => {
     if (!currentSong || filteredSongs.length === 0) return;
     
-    const currentIndex = filteredSongs.findIndex(s => s.id === currentSong.id);
-    const prevIndex = (currentIndex - 1 + filteredSongs.length) % filteredSongs.length;
+    const prevIndex = (filteredSongs.findIndex(s => s.id === currentSong.id) - 1 + filteredSongs.length) % filteredSongs.length;
     handlePlaySong(filteredSongs[prevIndex]);
   };
 
-  // [Función] Actualiza el volumen del reproductor
+  /**
+   * Maneja cambios en el volumen
+   * @param {Object} e - Evento del input
+   */
   const handleVolumeChange = (e) => {
     const newVolume = parseFloat(e.target.value);
     setVolume(newVolume);
-    if (audioRef.current) {
-      audioRef.current.volume = newVolume;
-    }
+    if (audioRef.current) audioRef.current.volume = newVolume;
   };
 
-  // [Función] Alterna entre silenciar y desilenciar
+  /**
+   * Alterna entre silenciar/desilenciar
+   */
   const handleMute = () => {
-    if (audioRef.current) {
-      audioRef.current.muted = !audioRef.current.muted;
-    }
+    if (audioRef.current) audioRef.current.muted = !audioRef.current.muted;
   };
 
-  // [Función] Maneja la selección de un bloque desde ItinerarioBoda
-  const handleBloqueSeleccionado = (bloqueId) => {
-    setBloqueActual(bloqueId);
-    mostrarAlerta(`Cambiado al bloque: ${bloqueId}`);
+  /**
+   * Maneja cambios en el estado de los bloques
+   * @param {string} bloqueId - ID del bloque
+   * @param {string} nuevoEstado - "completado" o "pendiente"
+   */
+  const handleEstadoChange = (bloqueId, nuevoEstado) => {
+    setEstadosEvento(prev => ({ ...prev, [bloqueId]: nuevoEstado }));
+    
+    if (nuevoEstado === 'completado' && bloqueId === bloqueActual) {
+      const bloquesIds = guionEvento?.bloques?.map(b => b.id) || [];
+      const nextIndex = bloquesIds.indexOf(bloqueId) + 1;
+      if (nextIndex > 0 && nextIndex < bloquesIds.length) {
+        setBloqueActual(bloquesIds[nextIndex]);
+        mostrarAlerta(`Avanzando a ${guionEvento.bloques[nextIndex].nombre}`);
+      }
+    }
   };
 
   // █████████████████████████████████████████████████████████████████████
-  // ███ 4. RENDERIZADO DEL COMPONENTE
+  // ███ 4. RENDERIZADO ███
   // █████████████████████████████████████████████████████████████████████
   return (
     <MusicaProvider>
       <div className="music-page">
-      <EventoGuion 
-  onBloqueChange={setBloqueEventoActual}
-  bloqueActual={bloqueActual}
-  guionEvento={guionEvento}
-/>
-        
-        {/* ███ 4.3 Contenedor principal del reproductor ███ */}
-        <div className="music-container">
-          {/* Elemento de audio oculto que maneja la reproducción real
-              - Se controla mediante la referencia audioRef
-              - Al terminar una canción, pasa a la siguiente automáticamente */}
-          <audio 
-            ref={audioRef} 
-            onEnded={handleNext}
-            hidden
-          />
-          
-          {/* ███ 4.4 Reproductor principal ███
-              - Muestra la canción actual
-              - Controles de reproducción
-              - Barra de progreso
-              - Controles de volumen */}
-          <MusicaReproductor 
-            currentSong={currentSong}
-            isPlaying={isPlaying}
-            volume={volume}
-            onPlayPause={handlePlayPause}
-            onNext={handleNext}
-            onPrev={handlePrev}
-            onVolumeChange={handleVolumeChange}
-            onMute={handleMute}
-            bloqueActual={bloqueActual}
-            bloques={bloques}
-            audioRef={audioRef}
-          />
-          
-          {/* ███ 4.5 Filtros por bloques musicales ███
-              - Permite seleccionar bloques musicales
-              - Filtra las canciones mostradas */}
-          <MusicaFiltros 
-            bloques={bloques}
-            bloqueActual={bloqueActual}
-            setBloqueActual={setBloqueActual}
-          />
-          
-          {/* ███ 4.6 Lista de canciones ███
-              - Muestra las canciones del bloque seleccionado
-              - Permite seleccionar canciones para reproducir */}
-          <MusicaCancionesLista 
-            songs={filteredSongs}
-            currentSong={currentSong}
-            onPlaySong={handlePlaySong}
-          />
-          
-          {/* ███ 4.7 Alertas temporales ███
-              - Muestra mensajes de feedback al usuario
-              - Se autodesactiva después de 3 segundos */}
-          {showAlert && (
-            <div className="alert-message">
-              {alertMessage}
+
+      <MusicaFiltros 
+              bloques={bloques}
+              bloqueActual={bloqueActual}
+              setBloqueActual={setBloqueActual}
+            />
+        {/* Diseño para escritorio (1024px+) */}
+        <div className="music-desktop-layout">
+          {/* Sección superior compacta (reproductor + filtros) */}
+          <div className="music-controls-section">
+            <MusicaReproductor 
+              currentSong={currentSong}
+              isPlaying={isPlaying}
+              volume={volume}
+              onPlayPause={handlePlayPause}
+              onNext={handleNext}
+              onPrev={handlePrev}
+              onVolumeChange={handleVolumeChange}
+              onMute={handleMute}
+              bloqueActual={bloqueActual}
+              bloques={bloques}
+              audioRef={audioRef}
+            />
+            
+      
+          </div>
+
+          {/* Sección principal dividida en dos columnas */}
+          <div className="music-content-section">
+            {/* Columna izquierda: Lista de canciones (30% ancho) */}
+            <div className="music-songs-column">
+              <MusicaCancionesLista 
+                songs={filteredSongs}
+                currentSong={currentSong}
+                onPlaySong={handlePlaySong}
+              />
             </div>
-          )}
+            
+            {/* Columna derecha: Itinerario del evento (70% ancho) */}
+            <div className="evento-guion-column">
+              <EventoGuion 
+                onBloqueChange={setBloqueActual}
+                bloqueActual={bloqueActual}
+                guionEvento={guionEvento}
+                onEstadoChange={handleEstadoChange}
+              />
+            </div>
+            
+          </div>
         </div>
+
+        {/* Diseño para móvil (<1024px) */}
+        <div className="music-mobile-layout">
+          {/* Contenedor principal móvil */}
+          <div className="music-container">
+            <audio ref={audioRef} onEnded={handleNext} hidden />
+            
+            <MusicaReproductor 
+              currentSong={currentSong}
+              isPlaying={isPlaying}
+              volume={volume}
+              onPlayPause={handlePlayPause}
+              onNext={handleNext}
+              onPrev={handlePrev}
+              onVolumeChange={handleVolumeChange}
+              onMute={handleMute}
+              bloqueActual={bloqueActual}
+              bloques={bloques}
+              audioRef={audioRef}
+            />
+            
+            <MusicaFiltros 
+              bloques={bloques}
+              bloqueActual={bloqueActual}
+              setBloqueActual={setBloqueActual}
+            />
+            
+            <MusicaCancionesLista 
+              songs={filteredSongs}
+              currentSong={currentSong}
+              onPlaySong={handlePlaySong}
+            />
+          </div>
+          
+          <EventoGuion 
+            onBloqueChange={setBloqueActual}
+            bloqueActual={bloqueActual}
+            guionEvento={guionEvento}
+            onEstadoChange={handleEstadoChange}
+          />
+        </div>
+
+        {/* Alertas temporales (común a ambos diseños) */}
+        {showAlert && (
+          <div className="alert-message">
+            {alertMessage}
+          </div>
+        )}
       </div>
     </MusicaProvider>
   );

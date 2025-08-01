@@ -2,13 +2,8 @@
 /* ESTILOS BASE - MOBILE FIRST */
 /* -------------------------------------------- */
 
-/**
- * FOOTER PRINCIPAL
- * - Fondo oscuro
- * - Borde superior sutil
- * - Padding adecuado
- */
- .app-footer {
+/* Contenedor principal del footer */
+.app-footer {
   background-color: #121212;
   color: #FFFFFF;
   padding: 30px 15px 15px;
@@ -17,12 +12,7 @@
   box-sizing: border-box;
 }
 
-/**
- * CONTENEDOR PRINCIPAL
- * - Organización en fila para logos y contenido central
- * - Centrado horizontal
- * - Wrap para móviles
- */
+/* Layout de 3 columnas (logo | redes | logo) */
 .footer-container {
   max-width: 1400px;
   margin: 0 auto;
@@ -33,12 +23,7 @@
   gap: 20px;
 }
 
-/**
- * LOGOS LATERALES
- * - Tamaño controlado
- * - Centrado perfecto
- * - Efecto hover sutil
- */
+/* Estilos para las columnas de logos */
 .footer-logo-side {
   flex: 1;
   min-width: 120px;
@@ -66,15 +51,11 @@
   }
 }
 
-/**
- * CONTENIDO CENTRAL (REDES SOCIALES)
- * - Organización vertical
- * - Centrado perfecto
- */
+/* Estilos para la sección central de redes */
 .footer-center {
   flex: 2;
   min-width: 100%;
-  order: -1; /* Mover arriba en móvil */
+  order: -1; /* Mueve arriba en móvil */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,27 +72,30 @@
   text-align: center;
 }
 
+/* Contenedor de íconos sociales (incluye el nuevo de contacto) */
 .socials-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 15px;
-}
-
-.social-link {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  background-color: #282828;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  transition: all 0.3s ease;
   
-  &:hover {
-    background-color: #1DB954;
-    transform: scale(1.1);
+  /* Estilos compartidos para links e íconos */
+  a, .social-link {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    
+    &:hover {
+      background-color: #1DB954;
+      transform: scale(1.1);
+    }
   }
 }
 
@@ -120,6 +104,7 @@
   font-size: 18px;
 }
 
+/* Tooltip de etiquetas para íconos */
 .social-label {
   position: absolute;
   bottom: -25px;
@@ -148,17 +133,13 @@
   }
 }
 
+/* Muestra tooltip al hover */
 .social-link:hover .social-label {
   opacity: 1;
   visibility: visible;
 }
 
-/**
- * SECCIÓN INFERIOR (COPYRIGHT)
- * - Borde superior sutil
- * - Texto legible
- * - Organización vertical en móvil
- */
+/* Sección inferior de copyright */
 .footer-bottom {
   max-width: 1400px;
   margin: 25px auto 0;
@@ -205,7 +186,7 @@
   
   .footer-center {
     min-width: auto;
-    order: 0; /* Orden normal */
+    order: 0; /* Orden normal en tablet/desktop */
     margin-bottom: 0;
   }
   
@@ -223,7 +204,8 @@
     gap: 20px;
   }
   
-  .social-link {
+  .socials-container a, 
+  .socials-container .social-link {
     width: 50px;
     height: 50px;
   }
@@ -274,7 +256,8 @@
     gap: 25px;
   }
   
-  .social-link {
+  .socials-container a, 
+  .socials-container .social-link {
     width: 55px;
     height: 55px;
   }

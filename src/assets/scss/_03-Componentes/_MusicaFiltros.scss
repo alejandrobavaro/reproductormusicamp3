@@ -1,6 +1,6 @@
 .filters-container {
   width: 100%;
-  margin-bottom: 10px;
+  padding-left: 10px;
   
   .block-selector {
     width: 100%;
@@ -20,7 +20,7 @@
   .quick-buttons {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 9px;
     
     button {
       padding: 4px 8px;
@@ -32,7 +32,7 @@
       cursor: pointer;
       
       &.active {
-        background-color: #0066cc;
+        background-color: #0a4683;
       }
     }
   }

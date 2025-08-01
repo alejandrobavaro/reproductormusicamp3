@@ -1,72 +1,107 @@
-/* █████████████████████████████████████████████████████████████████████
-   ███ ESTILOS BASE - ESTRATEGIA MOBILE FIRST ███
-   █████████████████████████████████████████████████████████████████████ */
+/* _Musica.scss - Versión completa */
+/* -------------------------------------------- */
+/* ESTILOS BASE - MOBILE FIRST */
+/* -------------------------------------------- */
 
-   .music-page {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    background-color: rgba(30, 30, 30, 0.8);
-    padding: 10px;
-    box-sizing: border-box;
-  }
+.music-page {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(30, 30, 30, 0.8);
+  box-sizing: border-box;
+}
+
+/* -------------------------------------------- */
+/* DISEÑO PARA MÓVIL (DEFAULT) */
+/* -------------------------------------------- */
+
+.music-mobile-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
   
   .music-container {
-    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
-  
-  /* █████████████████████████████████████████████████████████████████████
-     ███ ALERTAS TEMPORALES ███
-     █████████████████████████████████████████████████████████████████████ */
-  
-  .alert-message {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 10px 15px;
-    background-color: #ff9800;
-    color: #333;
-    border-radius: 4px;
-    z-index: 1000;
-    animation: fadeInOut 3s ease-in-out;
+}
+
+.music-desktop-layout {
+  display: none;
+}
+
+/* -------------------------------------------- */
+/* ESCRITORIO (1024px+) */
+/* -------------------------------------------- */
+
+@media (min-width: 1024px) {
+  .music-page {
+    height: calc(100vh - 150px); /* Ajuste para header/footer */
+    padding: 0;
   }
   
-  @keyframes fadeInOut {
-    0% { opacity: 0; transform: translateY(-20px); }
-    10% { opacity: 1; transform: translateY(0); }
-    90% { opacity: 1; transform: translateY(0); }
-    100% { opacity: 0; transform: translateY(-20px); }
+  .music-mobile-layout {
+    display: none;
   }
   
-  /* █████████████████████████████████████████████████████████████████████
-     ███ BREAKPOINT TABLET (768px) ███
-     █████████████████████████████████████████████████████████████████████ */
+  .music-desktop-layout {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: auto; // ANTES: height: 100%;
+    gap: 0;
   
-  @media (min-width: 768px) {
-    .music-page {
-      padding: 15px;
+    
+    .music-controls-section {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      padding: 10px 20px;
+      background: rgba(40, 40, 40, 0.9);
+      align-items: center;
     }
     
-    .music-container {
-      gap: 20px;
+    .music-content-section {
+      display: grid;
+      grid-template-columns: 30% 70%;
+      height: calc(100vh - 200px); /* Ajuste preciso */
+      
+      .music-songs-column,
+      .evento-guion-column {
+        height: 100%;
+        overflow-y: auto;
+        padding: 15px;
+      }
     }
   }
-  
-  /* █████████████████████████████████████████████████████████████████████
-     ███ BREAKPOINT ESCRITORIO (1024px) ███
-     █████████████████████████████████████████████████████████████████████ */
-  
-  @media (min-width: 1024px) {
-    .music-page {
-      max-width: 1200px;
-      padding: 20px;
-      margin: 0 auto;
-    }
-    
-    .music-container {
-      gap: 25px;
-    }
+}
+
+/* -------------------------------------------- */
+/* PANTALLAS GRANDES (1600px+) */
+/* -------------------------------------------- */
+
+@media (min-width: 1600px) {
+  .music-desktop-layout .music-content-section {
+    grid-template-columns: 25% 75%;
   }
+}
+
+/* -------------------------------------------- */
+/* ALERTAS TEMPORALES */
+/* -------------------------------------------- */
+
+.alert-message {
+  position: fixed;
+  top: 100px; /* Debajo del header */
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #ff9800;
+  color: #333;
+  border-radius: 4px;
+  z-index: 1000;
+  animation: fadeInOut 3s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}

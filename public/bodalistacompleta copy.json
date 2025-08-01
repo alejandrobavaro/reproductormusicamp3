@@ -88,28 +88,28 @@
                 "id": 11,
                 "nombre": "Intervención Animador - Entrada Novios",
                 "artista": "Animador",
-                "url": "/audio/02-ceremonia-civil/entrada_novios.mp3",
+                "url": "/audio/02-ceremonia-civil/15-Voz Animador.mp3",
                 "imagen": "/img/09-portadas/Designer (2).jpeg"
             },
             {
                 "id": 12,
                 "nombre": "Thank You for Loving Me",
                 "artista": "Bon Jovi",
-                "url": "/audio/02-ceremonia-civil/Thank You for Loving Me.mp3",
+                "url": "/audio/02-ceremonia-civil/16-Bon Jovi - Thank you for loving me.mp3",
                 "imagen": "/img/09-portadas/Designer (1).jpeg"
             },
             {
                 "id": 13,
                 "nombre": "Marcha Nupcial",
                 "artista": "Vitamin String Quartet",
-                "url": "/audio/02-ceremonia-civil/Marcha Nupcial.mp3",
+                "url": "/audio/02-ceremonia-civil/17-Marcha nupcial.mp3",
                 "imagen": "/img/09-portadas/portadaBaladasEspañol.png"
             },
             {
                 "id": 14,
-                "nombre": "Colgado en Tus Manos",
-                "artista": "Carlos Baute",
-                "url": "/audio/02-ceremonia-civil/Colgado en Tus Manos.mp3",
+                "nombre": "November rain",
+                "artista": "Guns N' Roses",
+                "url": "/audio/02-ceremonia-civil/18-Guns n Roses - November rain.mp3",
                 "imagen": "/img/09-portadas/portadapoprockingles.png"
             }
         ]
